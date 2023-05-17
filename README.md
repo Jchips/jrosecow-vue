@@ -18,7 +18,10 @@ database data is changed. Added count feature.
 
 - Vue.js 3
 - MongoDB
-- [Bootstrap 5 (navbar, modal, form)](https://getbootstrap.com/)
+- [Bootstrap 5 (navbar, modal, form, cards)](https://getbootstrap.com/)
+- [Sidebar on Explore page](https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#)
+- [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)
+- [Icons8](https://icons8.com)
 <!-- - [Bootstrap navbar](https://getbootstrap.com/docs/5.2/components/navbar/) -->
 <!-- * [scrollToTop code](https://stackoverflow.com/questions/50449123/vue-js-scroll-to-top-of-page-for-same-route)
 * [calculateAge code](https://smokeyfro.com/tutorials/calculate-your-age-with-vue) -->
@@ -28,6 +31,7 @@ database data is changed. Added count feature.
 
 - [Home page hero](https://unsplash.com/photos/OOE4xAnBhKo)
 - [Music page hero](https://unsplash.com/photos/YrtFlrLo2DQ)
+- [Explore page background](https://unsplash.com/photos/wuc-KEIBrdE)
 
 ## Project setup
 

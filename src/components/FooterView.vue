@@ -1,3 +1,4 @@
+<!-- Side bar code by: https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202# -->
 <template>
   <footer class="page-footer font-small text-white pt-4">
     <div class="container-fluid text-md-left">
@@ -7,7 +8,8 @@
           <p>Here you can find multiple ways to contact me.</p>
           <p class="sources">All absolute image sources on page can be found in DOM inspector.<br />I'm not being paid for
             this site or for use of any images.</p>
-          <p class="sources"><a target="_blank" href="https://icons8.com/icon/85081/trash">Trash</a> icon on certain pages by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+          <p class="sources"><a target="_blank" href="https://icons8.com/icon/5077/dance">Dance</a> and <a target="_blank" href="https://icons8.com/icon/85081/trash">Trash</a> icons on certain pages by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+          <!-- <p class="sources"> icon on explore page by <a target="_blank" href="https://icons8.com">Icons8</a></p> -->
           <img class="img-circle" src="@/assets/ar-emoji-pin.jpg" alt="J. Rose pin" />
         </div>
         <hr class="clearfix w-100 d-md-none pb-3">

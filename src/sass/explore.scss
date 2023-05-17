@@ -1,0 +1,221 @@
+/** 
+* Some of this css is from Bootstrap 5 sidebar - https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#
+*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+$explore-purple: #4723D9;
+
+:root {
+  --nav-width: 68px;
+  --first-color: #4723D9;
+  --first-color-light: #AFA5D9;
+  --white-color: #F7F6FB;
+  --body-font: 'Nunito', sans-serif;
+  --normal-font-size: 1rem;
+  --z-fixed: 100
+}
+
+.explore *,
+.explore ::before,
+.explore ::after {
+  box-sizing: border-box;
+}
+
+.explore-container {
+  display: flex;
+}
+
+.explore a {
+  text-decoration: none
+}
+
+.explore .header {
+  width: 100%;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background-color: white;
+  // background-color: var(--white-color);
+  // background-color: #91A6FF;
+  // background-color: $explore-purple;
+  // background-image: linear-gradient(180deg, white 0%, #91A6FF 74%);
+  transition: .5s
+}
+
+.explore header h1 {
+  font-family: sans-serif;
+  // color: var(--white-color);
+  font-weight: 600;
+}
+
+.explore .header_toggle {
+  color: var(--first-color);
+  font-size: 1.5rem;
+  cursor: pointer
+}
+
+.explore .header_img {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden
+}
+
+.explore .header_img img {
+  width: 40px
+}
+
+.explore .l-navbar {
+  // position: fixed;
+  // top: 0;
+  // left: -30%;
+  width: var(--nav-width);
+  // height: 100vh;
+  background-color: var(--first-color);
+  padding: .5rem 1rem 0 0;
+  transition: .5s;
+  // z-index: var(--z-fixed)
+}
+
+.explore .nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden
+}
+
+.explore .nav_logo,
+.explore .nav_link {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: 1rem;
+  padding: .5rem 0 .5rem 1.5rem
+}
+
+.explore .nav_logo {
+  margin-bottom: 2rem
+}
+
+.explore .nav_logo-icon {
+  font-size: 1.25rem;
+  color: var(--white-color)
+}
+
+.explore .nav_logo-name {
+  color: var(--white-color);
+  font-weight: 700
+}
+
+.explore .nav_link {
+  position: relative;
+  color: var(--first-color-light);
+  margin-bottom: 1.5rem;
+  transition: .3s
+}
+
+.explore .nav_link:hover {
+  color: var(--white-color)
+}
+
+.explore .nav_icon {
+  font-size: 1.25rem;
+}
+
+.explore .show {
+  left: 0
+}
+
+.explore .active {
+  color: var(--white-color)
+}
+
+.explore .active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 2px;
+  height: 32px;
+  background-color: var(--white-color)
+}
+
+.explore .height-100 {
+  // height: 100vh;
+  // height: auto;
+  width: 100%;
+  padding: 20px;
+  
+  & h4 {
+    color: #eee;
+  }
+}
+
+.explore main {
+  background-image: url(https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80);
+  background-color: rgba(87, 87, 87, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  // body {
+  //   margin: calc(var(--header-height) + 1rem) 0 0 0;
+  //   padding-left: calc(var(--nav-width) + 2rem)
+  // }
+
+  // .header {
+  //   height: calc(var(--header-height) + 1rem);
+  //   padding: 0 2rem 0 calc(var(--nav-width) + 2rem)
+  // }
+
+  .explore .header_img {
+    width: 40px;
+    height: 40px
+  }
+
+  .explore .header_img img {
+    width: 45px
+  }
+
+  .explore .l-navbar {
+    left: 0;
+    padding: 1rem 1rem 0 0
+  }
+
+  .explore .show {
+    width: calc(var(--nav-width) + 156px)
+  }
+}
+
+.explore .projects {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  
+  & .card {
+    // box-shadow: 2px 1px 5px 0 rgba(0, 0, 0, 0.6);
+    transition: all 0.4s ease-in-out;
+    background-color: #dcdbe3;
+    // background-color: #91A6FF;
+    border: none;
+  }
+
+  & .card:hover { 
+    transform: scale(1.02); 
+  }
+
+  & .card-img-top {
+    height: 200px;
+    border-bottom: 1px solid #8c8c8c;
+    border-radius: 2px;
+  }
+
+  & .card-body a {
+    background-color: #4723D9;
+  }
+}

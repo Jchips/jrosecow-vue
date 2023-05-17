@@ -1,3 +1,5 @@
+<!-- Hero image from Marcela Laskoski on Unsplash - https://unsplash.com/photos/YrtFlrLo2DQ -->
+
 <template>
   <div class="music-container">
     <section class="hero-image">

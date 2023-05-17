@@ -4,12 +4,12 @@
     <!-- Hero Image -->
     <div class="hero-image">
       <div class="hero-text">
-        <h1>I am Jaye Rose</h1>
+        <h1>I am J. Rose</h1>
       </div>
     </div>
 
     <main>
-      <h2>About Jaye Rose</h2>
+      <h2>About J. Rose</h2>
         <p>
           Just a short, sad, black woman who likes music, coding and dance.
         </p>
@@ -68,7 +68,7 @@
 </style>
 
 <script>
-import favsJson from '@/json/favs.json';
+import favsJson from '@/json/myData.json';
 export default {
   name: 'AboutView',
   data() {
