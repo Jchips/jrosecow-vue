@@ -1,3 +1,4 @@
+<!-- Sidebar from: https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202# -->
 <!-- This page uses Lightbox2. https://lokeshdhakar.com/projects/lightbox2/ -->
 <!-- Background image from Annie Spratt on Unsplash https://unsplash.com/photos/wuc-KEIBrdE -->
 <template>
@@ -19,7 +20,7 @@
           <div>
             <a href="#" class="nav_logo">
               <i class="bx bx-layer nav_logo-icon"></i>
-              <span class="nav_logo-name">Menu</span>
+              <span class="nav_logo-name">Projects</span>
             </a>
             <div class="nav_list">
 
@@ -38,13 +39,13 @@
               <!-- Create a behavior chain -->
               <a href="#" class="nav_link">
                 <!-- <i class="bx bx-folder nav_icon"></i> -->
-                <img width="24" height="24" src="https://img.icons8.com/ios/50/B9B9B9/therapy.png" alt="therapy" />
+                <img width="24" height="24" src="https://img.icons8.com/ios/50/AFA5D9/therapy.png" alt="therapy" />
                 <span class="nav_name">Behavior Chain</span>
               </a>
 
               <!-- Dance wiki -->
               <a href="#" class="nav_link">
-                <img class="nav_icon" width="24" height="24" src="https://img.icons8.com/ios/50/B9B9B9/dancing.png"
+                <img class="nav_icon" width="24" height="24" src="https://img.icons8.com/ios/50/AFA5D9/dancing.png"
                   alt="dancing" />
                 <!-- <i class="bx bx-message-square-detail nav_icon"></i> -->
                 <span class="nav_name">Dance Wiki</span>
@@ -105,11 +106,7 @@
 <script>
 import myData from "@/json/myData.json";
 import ExploreCards from "@/components/ExploreCards.vue";
-// import "jquery"
-// import "lightbox2/dist/css/lightbox.min.css";
-// import "lightbox2/dist/js/lightbox.min";
-// import "jquery";
-// import "boxicons";
+
 export default {
   data() {
     return {
@@ -120,8 +117,7 @@ export default {
     ExploreCards
   },
   mounted() {
-    // document.addEventListener("DOMContentLoaded", function() {
-
+    // Code from https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#
     const showNavbar = (toggleId, navId, bodyId, headerId) => {
       const toggle = document.getElementById(toggleId),
         nav = document.getElementById(navId),

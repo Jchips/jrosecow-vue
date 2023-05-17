@@ -1,0 +1,116 @@
+.blog {
+  background-color: black;
+}
+
+.blog main {
+  padding-left: 64px;
+}
+.blog aside {
+  // padding: 40px;
+  padding-left: 0;
+  padding-top: 40px;
+  // display: flex;
+  // flex-direction: column;
+  // background-color: rgba(247, 246, 251, 0.3);
+  // border-top-right-radius: 10px;
+  // border-bottom-right-radius: 10px;
+  position: fixed;
+  left: 0;
+  z-index: 2;
+
+  & .aside-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    // background-color: rgba(247, 246, 251, 0.3);
+    background-color: #AFA5D9;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 70vh;
+    }
+
+  & a {
+    margin: 10px 0;
+  }
+}
+
+.blogs {
+  margin: auto auto;
+}
+
+.blog-post-image {
+  height: 45%;
+  // background-position: 0 18%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 150px;
+}
+
+.paper {
+  background-color: #fff;
+  background-size: 100%;
+  // width: 85%;
+  margin: 40px auto;
+  padding-bottom: 32px;
+  border: 1px solid black;
+  -webkit-filter: drop-shadow(5px 5px 10px white);
+  filter: drop-shadow(5px 5px 10px white);
+}
+
+.paper h2 {
+  font-weight: bold;
+  font-family: "allerregular", Arial;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.paper h5 {
+  font-style: italic;
+  /* font-size: 10px; */
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.paper p {
+  padding: 0.625em 1.25em 0.625em 1.25em;
+  margin: 0;
+}
+
+.paper li {
+  padding-left: 0.9em;
+  padding-bottom: 0.125em;
+}
+
+.paper p,
+.paper li {
+  font-family: "Calibri", sans-serif;
+  color: black;
+  /* font-size: 14px; */
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 300;
+}
+
+.paper p a {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.paper h3 {
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  font-size: 1rem;
+  margin: 0.5%;
+}
+
+.title {
+  color: black;
+  font-weight: 800;
+  font-size: 1.1rem;
+  /* font-size: 17px; */
+  text-align: center;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+}

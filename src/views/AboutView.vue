@@ -33,7 +33,7 @@
           I'm not expecting much eyes on this site other than my own, but if you're not me,
           welcome to my website. Pls don't hate me or abandon me ever cus I'm a lonely lass :/ and I'm a loyal, nonjudgmental and accepting friend and I feel like that's rare to come by 🤷🏾‍♂️.
         </p> -->
-        <p>
+        <p class="my-links">
           <a href="https://ask.fm/javacow" target="_blank">
             <img src="https://logodix.com/logo/15192.jpg" alt="AskFm icon" />
           </a>
@@ -44,18 +44,22 @@
         <div class="btn-container"><button class="btn btn-primary" @click="showMore = !showMore">{{ showMore ? 'SHOW LESS -' : 'SHOW MORE +'}}</button></div>
         <section v-show="showMore">
           <h6>To get to know me, here are some of my favs and fun facts about me. See what you can relate too :)</h6>
-          <div class="favs-facts-container row">
-            <article class="favs col-lg-5 col-12">
-              <h4>Favorites:</h4>
-              <ul>
-                <li v-for="(value, key, index) in favs.favs" :key="index"><span>{{ key }}: </span>{{ value }}</li>
-              </ul>
+          <div class="favs-facts-container">
+            <article class="favs">
+              <div>
+                <h4>My Favorites:</h4>
+                <ul class="list-group">
+                  <li v-for="(value, key, index) in favs.favs" :key="index" class="list-group-item"><span>{{ key }}: </span>{{ value }}</li>
+                </ul>
+              </div>
             </article>
-            <article class="fun-facts col-lg-5 col-12">
-              <h4>Fun Facts</h4>
-              <ol>
-                <li v-for="(funFact, index) in favs.funFacts" :key="index"><span>{{ index + 1 }}. </span>{{ funFact }}</li>
-              </ol>
+            <article class="fun-facts">
+              <div>
+                <h4>20 Fun Facts</h4>
+                <ol class="list-group">
+                  <li v-for="(funFact, index) in favs.funFacts" :key="index" class="list-group-item"><span>{{ index + 1 }}. </span>{{ funFact }}</li>
+                </ol>
+              </div>
             </article>
           </div>
         </section>

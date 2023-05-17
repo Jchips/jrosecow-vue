@@ -6,22 +6,26 @@ This is J. Rose's personal website made in Vue.js 3.
 
 ### Author: J. Rose
 
-### Version: 1.1.0
+### Version: 0.3.0
 
 ## Change log
 
-- 05-12-23 (1.1.0): Music - Reloads just the table component instead of whole page whenever
+- 05-17-23 (0.3.0): Added blog page. Added icons to footer.
+- 05-16-23 (0.2.0): Added Explore page to site.
+- 05-12-23 (0.1.0): Music - Reloads just the table component instead of whole page whenever
 database data is changed. Added count feature.
-- 05-12-23 (1.0.0): Home, About and Music page (initial commit)
+- 05-12-23 (0.0.0): Home, About and Music page (initial commit)
 
 ### Links and Resources
 
 - Vue.js 3
 - MongoDB
-- [Bootstrap 5 (navbar, modal, form, cards)](https://getbootstrap.com/)
+- [Bootstrap 5 (navbar, modal, form, cards, list group)](https://getbootstrap.com/)
 - [Sidebar on Explore page](https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#)
 - [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)
 - [Icons8](https://icons8.com)
+- [FontAwesome](https://fontawesome.com/)
+- [Boxicons](https://boxicons.com/)
 <!-- - [Bootstrap navbar](https://getbootstrap.com/docs/5.2/components/navbar/) -->
 <!-- * [scrollToTop code](https://stackoverflow.com/questions/50449123/vue-js-scroll-to-top-of-page-for-same-route)
 * [calculateAge code](https://smokeyfro.com/tutorials/calculate-your-age-with-vue) -->
