@@ -6,10 +6,11 @@ This is J. Rose's personal website made in Vue.js 3.
 
 ### Author: J. Rose
 
-### Version: 0.3.0
+### Version: 0.3.1
 
 ## Change log
 
+- 05-18-23 (0.3.1): Freshened up main blog page.
 - 05-17-23 (0.3.0): Added blog page. Added icons to footer.
 - 05-16-23 (0.2.0): Added Explore page to site.
 - 05-12-23 (0.1.0): Music - Reloads just the table component instead of whole page whenever
@@ -36,6 +37,11 @@ database data is changed. Added count feature.
 - [Home page hero](https://unsplash.com/photos/OOE4xAnBhKo)
 - [Music page hero](https://unsplash.com/photos/YrtFlrLo2DQ)
 - [Explore page background](https://unsplash.com/photos/wuc-KEIBrdE)
+- [Blog background](https://unsplash.com/photos/kcKiBcDTJt4)
+
+Blog images:
+<https://unsplash.com/photos/Hli3R6LKibo>
+
 
 ## Project setup
 
