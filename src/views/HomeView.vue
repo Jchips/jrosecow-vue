@@ -12,7 +12,7 @@
       <section class="of-the-week">
         <article class="video">
           <h2>Video of the week</h2>
-          <iframe src="https://www.youtube.com/embed/oX44x5Jke_w" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/OzmiPxnZtgc" allowfullscreen></iframe>
         </article>
         <article class="songs">
           <h2>Songs of the week</h2>

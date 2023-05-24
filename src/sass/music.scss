@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap'); // Secular One font
 
 .music-container .hero-image {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
@@ -6,10 +6,6 @@
   padding: 150px 0;
   background-position: center;
   background-repeat: no-repeat;
-  // position: relative;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
 }
 
 .music-container .hero-text {
@@ -17,11 +13,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  // position: absolute;
   color: white;
   font-family: 'Secular One', sans-serif;
-  // margin: auto auto;
-  // transform: translate();
 }
 
 .music-container .hero-text h2 {
@@ -45,13 +38,7 @@
   border: 2px solid #9c9c9c;
   margin: 40px 0;
   background-color: #f0f1ff;
-  // align-items: center;
 }
-
-// .table-striped>tbody>tr:nth-of-type(odd)>* {
-//   --bs-table-accent-bg: white;
-//   color: var(--bs-table-striped-color);
-// }
 
 .music-container .table-title {
   text-align: center;
@@ -62,8 +49,21 @@
   text-transform: capitalize;
 }
 
+.music-container .count {
+  display: inline-block;
+  border: 1px solid #6a6a6a;
+  border-radius: 100%;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  margin: 0 5px;
+  text-align: center;
+}
+
 .music-container td {
   vertical-align: middle;
+  border: 1px solid #6a6a6a;
 }
 
 .music-container td img {
@@ -81,27 +81,3 @@
   // color: rgb(33, 37, 41);
   color: #6a6a6a;
 }
-
-// .music-container button {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
-
-
-
-// form {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   text-align: center;
-// }
-
-// form > * {
-//   margin: 5px;
-// }
-
-// form #submit {
-//   width: fit-content;
-//   margin: 5px auto;
-// }

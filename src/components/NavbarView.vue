@@ -25,8 +25,7 @@
             <ul class="dropdown-menu">
               <!-- <li><a class="dropdown-item" href="#"><router-link to="/gen-z-dance-wiki">Gen Z Dance Wiki</router-link></a></li> -->
               <li><router-link to="/blog" class="dropdown-item">Blog</router-link></li>
-              <li><router-link to="/music" class="dropdown-item">Music</router-link></li>
-              <li><router-link to="/reviews" class="dropdown-item">Reviews</router-link></li>
+              <li><router-link to="/movie-reviews" class="dropdown-item">Reviews</router-link></li>
               <li><router-link to="/vs" class="dropdown-item">VS</router-link></li>
               <li>
                 <hr class="dropdown-divider">

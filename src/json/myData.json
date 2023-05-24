@@ -30,11 +30,39 @@
     "I only use pens to write with. I don't like pencils",
     "I am a introvert  and my personality type is a Mediator (INFP-T) [16personalities test]",
     "I remember numbers very well, but not words. (Names and vocab will slip away from me, but dates and pin numbers stick in my head)",
-    "My sexual orientation is females ️‍🌈 ",
+    "My sexual orientation is females",
     "When listening to music, I always remember the rhythm, beat and little nuances in the songs, but never the lyrics",
     "I wear a hoodie pretty much everywhere (even in the summer)",
     "My music taste is literally anything. Like I don't like all songs, but I like some of all types of music...except K-Pop (sorry)",
     "I know that we're not supposed to start sentences with \"but\" or \"and\" in English, but I think that's a stupid rule and I love starting sentences with both.",
     "I don't like ice cream, s'mores, candy corn or marshmellows 😮"
+  ],
+  "explore_cards": [
+    {
+      "img_path": "https://github.com/Jchips/my-portfolio/blob/main/public/images/portfolio/jphones/p1.jpg?raw=true",
+      "img2_path": "https://github.com/Jchips/my-portfolio/blob/main/public/images/portfolio/calendar/calendar3.png?raw=true",
+      "lightbox_cat": "jphones",
+      "card_title": "J. Phones.com",
+      "card_text": "Project for phone shopping. I am a phone geek so I created a site for phone shoppers to find the best phone for them.",
+      "project_lang": "React, Javascript & Bootstrap 5",
+      "project_link": "https://jphones.netlify.app/"
+    },
+    {
+      "img_path": "/assets/explore-imgs/tv-reviews.png",
+      "lightbox_cat": "tv",
+      "card_title": "TV",
+      "card_text": "Thinking about what show to watch next? Here's the shows I've watched and my reviews on them.",
+      "project_lang": "HTML5, CSS3 & JavaScript",
+      "project_link": "https://jphones.netlify.app/"
+    },
+    {
+      "img_path": "/assets/explore-imgs/behavior-chain1.png",
+      "img2_path": "/assets/explore-imgs/behavior-chain2.png",
+      "lightbox_cat": "behavior-chain",
+      "card_title": "Create a Behavior Chain",
+      "card_text": "This is for DBT and RODBT practice. Create a behavior chain to prevent your target behavior from happening again.",
+      "project_lang": "React, Javascript & Bootstrap 5",
+      "project_link": "https://behavior-chain.netlify.app/"
+    }
   ]
 }

@@ -18,7 +18,7 @@
   export default {
     data() {
       return {
-        checked: this.song.isChecked
+        checked: this.song.isChecked,
       }
     },
     props: {

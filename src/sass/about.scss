@@ -1,4 +1,4 @@
-/* Code from https://www.w3schools.com/howto/howto_css_hero_image.asp  */
+/* Hero image code from https://www.w3schools.com/howto/howto_css_hero_image.asp  */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/about-hero.jpg");
   /* height: 300px; */
@@ -57,19 +57,24 @@ main p a {
   margin: 5px;
 
   & img {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     border-radius: 20px;
     text-align: center;
     display: inline-block;
-    transition: transform .6s;
+    transition: transform .4s;
     box-shadow: 2px 2px 2px black;
+  }
+
+  & img:hover {
+    transform: scale(1.15);
   }
 }
 
 h6 {
   text-align: center;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .btn-container {
@@ -79,28 +84,51 @@ h6 {
 }
 
 section {
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 40px 44px;
   // background-color: rgb(187, 95, 227);
-  background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-  color: #eee;
-  border: 20px solid black;
+  // background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  // color: #eee;
+  // border: 20px solid black;
+
+  // & h6 {
+  //   margin-bottom: 20px;
+  // }
 }
 
 .favs-facts-container {
   justify-content: space-around;
   padding: 0 20px;
 
-  & li span {
-    font-weight: bold;
-    text-transform: capitalize;
-  }
-
   & article {
-    padding: 20px;
-    background-color: rgba(240, 240, 240, 0.6);
+    padding: 30px;
+    // background-color: rgba(240, 240, 240, 0.6);
+    // background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: #eee;
+    // border: 20px solid black;
+    // border: 1px solid #f0f0f0;
+    // background-color: #F7F6FB;
     color: #000;
     border-radius: 10px;
     margin: 10px;
+
+    & div {
+      background-color: #F7F6FB;
+      border: 1px solid #f0f0f0;
+      padding: 40px;
+      border-radius: inherit;
+    }
+  }
+
+  & ul {
+    // background-color: rgba(240, 240, 240, 0.6);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // position: absolute;
+  }
+
+  & li span {
+    font-weight: bold;
+    text-transform: capitalize;
   }
 }
