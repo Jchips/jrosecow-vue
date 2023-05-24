@@ -33,6 +33,28 @@ const routes = [
     }
   },
   {
+    path: '/movie-reviews',
+    name: 'movie reviews',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/protected/MovieReviews.vue'),
+    meta: {
+      title: 'Movie Reviews'
+    }
+  },
+  {
+    path: '/vs',
+    name: 'vs',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/VSView.vue'),
+    meta: {
+      title: 'VS'
+    }
+  },
+  {
     path: '/explore',
     name: 'explore',
     // route level code-splitting
@@ -49,9 +71,42 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/MusicView.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '../views/protected/MusicView.vue'),
     meta: {
       title: 'Music'
+    }
+  },
+  {
+    path: '/dance-blog',
+    name: 'dance blog',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/protected/DanceBlog.vue'),
+    meta: {
+      title: 'Dance Blog'
+    }
+  },
+  {
+    path: '/film-blog',
+    name: 'film blog',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/protected/FilmBlog.vue'),
+    meta: {
+      title: 'Film Blog'
+    }
+  },
+  {
+    path: '/tech-reviews',
+    name: 'tech reviews',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/TechReviews.vue'),
+    meta: {
+      title: 'Tech Reviews'
     }
   },
   // {

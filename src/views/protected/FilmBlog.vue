@@ -1,6 +1,6 @@
 <template>
   <div class="blog">
-    <BlogNav>J. Rose Blog</BlogNav>
+    <BlogNav>J. Rose Film Blog</BlogNav>
     <BlogMain :blog="blog" />
   </div>
 </template>
@@ -16,7 +16,7 @@ import blogData from "@/json/blog.json"
 export default {
   data() {
     return {
-      blog: blogData.main_blog
+      blog: blogData.film_blog
     }
   },
   components: {

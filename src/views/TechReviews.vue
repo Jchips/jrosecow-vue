@@ -1,6 +1,6 @@
 <template>
   <div class="blog">
-    <BlogNav>J. Rose Blog</BlogNav>
+    <ReviewsNav>J. Rose Tech Reviews</ReviewsNav>
     <BlogMain :blog="blog" />
   </div>
 </template>
@@ -10,17 +10,18 @@
 </style>
 
 <script>
-import BlogNav from "@/components/BlogNav.vue"
+// import BlogPost from "@/components/BlogPost.vue"
+import ReviewsNav from "@/components/ReviewsNav.vue"
 import BlogMain from "@/components/BlogMain.vue"
 import blogData from "@/json/blog.json"
 export default {
   data() {
     return {
-      blog: blogData.main_blog
+      blog: blogData.tech_reviews
     }
   },
   components: {
-    BlogNav,
+    ReviewsNav,
     BlogMain
   }
 }

@@ -15,9 +15,9 @@
 
         <!-- My New Music Table -->
         <TableView :music="music" :delete-song="deleteSong" :edit-song="editSong" :handleCheckbox="handleCheckbox"
-          :tableHeaderLabels="tableHeaderLabels"/>
+          :tableHeaderLabels="tableHeaderLabels" />
       </div>
-      
+
       <!-- Adding a song modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -128,9 +128,10 @@ export default {
   methods: {
     // Gets the music from the MongoDB database using an Axios request.
     // Then stores the music data inside the music state (or variable or whatever it's called in Vue)
-    async getMusic() {
-      await axios
-        .get(`${process.env.VUE_APP_SERVER}/music`)
+    getMusic() {
+      const url = `${process.env.VUE_APP_SERVER}/music`;
+      axios
+        .get(url)
         .then((response) => (this.music = response.data))
         .catch((error) => console.error(error));
       console.log(this.music); // delete later

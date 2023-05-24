@@ -37,7 +37,7 @@
               </a>
 
               <!-- Create a behavior chain -->
-              <a href="#" class="nav_link">
+              <a href="https://behavior-chain.netlify.app/" class="nav_link">
                 <!-- <i class="bx bx-folder nav_icon"></i> -->
                 <img width="24" height="24" src="https://img.icons8.com/ios/50/AFA5D9/therapy.png" alt="therapy" />
                 <span class="nav_name">Behavior Chain</span>
