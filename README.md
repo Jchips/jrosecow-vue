@@ -6,10 +6,11 @@ This is J. Rose's personal website made in Vue.js 3.
 
 ### Author: J. Rose
 
-### Version: 0.3.1
+### Version: 1.0.0
 
 ## Change log
 
+- 05-24-23 (1.0.0): Added the rest of the blog.
 - 05-18-23 (0.3.1): Freshened up main blog page.
 - 05-17-23 (0.3.0): Added blog page. Added icons to footer.
 - 05-16-23 (0.2.0): Added Explore page to site.
