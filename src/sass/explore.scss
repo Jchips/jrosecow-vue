@@ -198,6 +198,7 @@ $explore-purple: #4723D9;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  flex-wrap: wrap;
   
   & .card {
     // box-shadow: 2px 1px 5px 0 rgba(0, 0, 0, 0.6);

@@ -1,4 +1,4 @@
 AuthType Basic
-AuthName "Protected Site"
-AuthUserFile ../../.htpasswd
-require valid-user
+AuthName "Restricted Access"
+AuthUserFile /home/u863842902/domains/jrosecow.com/public_html/.htpasswd
+Require valid-user

@@ -39,8 +39,8 @@
   ],
   "explore_cards": [
     {
-      "img_path": "https://github.com/Jchips/my-portfolio/blob/main/public/images/portfolio/jphones/p1.jpg?raw=true",
-      "img2_path": "https://github.com/Jchips/my-portfolio/blob/main/public/images/portfolio/calendar/calendar3.png?raw=true",
+      "img_path": "/assets/explore-imgs/jphones1.jpeg",
+      "img2_path": "/assets/explore-imgs/jphones2.jpeg",
       "lightbox_cat": "jphones",
       "card_title": "J. Phones.com",
       "card_text": "Project for phone shopping. I am a phone geek so I created a site for phone shoppers to find the best phone for them.",

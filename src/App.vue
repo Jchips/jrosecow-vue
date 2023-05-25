@@ -4,8 +4,8 @@
 </template>
 
 <style lang="scss">
-@import '@/sass/reset.scss';
-@import '@/sass/style.scss';
+// @import '@/sass/reset.scss';
+@import "@/sass/style.scss";
 
 #app {
   // font-family: Avenir, Helvetica, Arial, sans-serif;
