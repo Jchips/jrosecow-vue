@@ -1,0 +1,8 @@
+[
+  {"value": "1", "text": "First name"},
+  {"value": "2", "text": "Dance name"},
+  {"value": "3", "text": "Last name"},
+  {"value": "4", "text": "Age (youngest)"},
+  {"value": "5", "text": "Age (oldest)"},
+  {"value": "6", "text": "Birthday"}
+]

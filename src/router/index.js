@@ -95,11 +95,15 @@ const routes = [
       title: 'Login'
     }
   },
-  // {
-  //   path: '/gen-z-dance-wiki',
-  //   name: 'gen z dance wiki',
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/GenZDanceWiki.vue')
-  // }
+  {
+    path: '/gen-z-dance-wiki',
+    name: 'gen z dance wiki',
+    component: () => import(/* webpackChunkName: "blog" */ '../views/protected/GenZDanceWiki.vue'),
+    meta: {
+      title: 'Dance Wiki',
+      requiresAuth: true
+    }
+  }
 ]
 
 const router = createRouter({
@@ -111,13 +115,25 @@ const router = createRouter({
 // Code from: https://bytelanguage.com/2020/08/31/private-routes-using-vuejs/
 router.beforeEach(async (to, from, next) => {
   document.title = to.meta.title || 'Default Page Title';
+  let originalRoute = null;
 
   // Navigation Guard
-  const isAuthenticated = pass();
+  const isAuthenticated = checkAuthentication();
   if (to.matched.some((route) => route.meta.requiresAuth)) {
     // Route requires authentication
-   if ( await isAuthenticated) {
+    if (await isAuthenticated) {
       // User is authenticated, allow navigation
+
+      // Check if the originally clicked route is stored
+      if (originalRoute) {
+        // Replace the current route with the originally clicked route
+        router.replace(originalRoute);
+        // Reset the originally clicked route variable
+        originalRoute = null;
+      } else {
+        // Store the originally clicked route
+        originalRoute = from;
+      }
       next();
     } else {
       // User is not authenticated, redirect to login or show an unauthorized message
@@ -129,10 +145,6 @@ router.beforeEach(async (to, from, next) => {
   }
 });
 
-function pass() {
-  return checkAuthentication();
-}
-
 function checkAuthentication() {
   let token = localStorage.getItem('token'); // Retrieve the token from local storage
 
@@ -141,7 +153,7 @@ function checkAuthentication() {
     axios.defaults.headers.common['authorization'] = `Bearer ${token}`;
 
     // Make a request to a protected route to check if the token is valid
-    return axios.get(`${process.env.VUE_APP_SERVER}/protected/blog`)
+    return axios.get(`${process.env.VUE_APP_SERVER}/protected/`)
       .then((response) => {
         console.log('router response', response.data.message);
         return true; // Authentication is successful

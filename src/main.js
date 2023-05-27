@@ -1,7 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-// import vueMeta from 'vue-meta'
 
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,15 +16,16 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome"
 
 /* import specific icons */
 // import { faUserSecret } from "@fortawesome/free-solid-svg-icons"
-import { faInstagram, faYoutube, faSpotify, faSnapchat } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faYoutube, faSpotify, faSnapchat } from "@fortawesome/free-brands-svg-icons";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(faInstagram)
 library.add(faYoutube)
 library.add(faSpotify)
 library.add(faSnapchat)
-
-// const metaManager = createMetaManager();
+library.add(faChevronLeft)
+library.add(faChevronRight)
 
 // import "bootstrap/dist/js/bootstrap.min.js";
 
