@@ -24,7 +24,7 @@
             </a>
             <ul class="dropdown-menu">
               <!-- <li><a class="dropdown-item" href="#"><router-link to="/gen-z-dance-wiki">Gen Z Dance Wiki</router-link></a></li> -->
-              <li><router-link to="/blog" class="dropdown-item">Blog</router-link></li>
+              <li><router-link to="/protected/blog" class="dropdown-item">Blog</router-link></li>
               <li><router-link to="/movie-reviews" class="dropdown-item">Reviews</router-link></li>
               <li><router-link to="/vs" class="dropdown-item">VS</router-link></li>
               <li>
@@ -37,7 +37,7 @@
             <router-link to="/explore" class="nav-link">Explore</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/cart" class="nav-link">My Cart</router-link>
+            <router-link to="#" class="nav-link disabled">My Cart</router-link>
           </li>
         </ul>
         <form class="d-flex" role="search">

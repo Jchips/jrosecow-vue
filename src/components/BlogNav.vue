@@ -4,7 +4,7 @@
     <ul class="nav justify-content-end">
       <li class="nav-item">
         <!-- <a class="nav-link active" aria-current="page" href="#">Main blog</a> -->
-        <router-link class="nav-link" to="/blog">Main blog</router-link>
+        <router-link class="nav-link" to="/protected/blog">Main blog</router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/dance-blog">Dance blog</router-link>
