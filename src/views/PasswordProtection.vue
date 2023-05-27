@@ -63,7 +63,7 @@ export default {
           localStorage.setItem('token', token);
           this.isAuthenticated = true;
           document.getElementById("alert").style.display = 'none';
-          this.$router.push('/protected/blog');
+          this.$router.replace(this.$route.redirectedFrom);
         } else {
           console.log('incorrect username or password');
           document.getElementById("alert").style.display = 'block';
@@ -86,7 +86,7 @@ export default {
         axios.defaults.headers.common['authorization'] = `Bearer ${token}`;
 
         // Make a request to a protected route to check if the token is valid
-        axios.get(`${process.env.VUE_APP_SERVER}/protected/blog`)
+        axios.get(`${process.env.VUE_APP_SERVER}/protected/`)
           .then((response) => {
             // Token is valid, the user is authenticated
             this.isAuthenticated = true;

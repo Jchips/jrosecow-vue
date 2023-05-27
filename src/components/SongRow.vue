@@ -5,7 +5,6 @@
     <td>{{ song.artist }}</td>
     <td v-if="song.songLink.includes('http')"><a :href="song.songLink">{{ song.songLink }}}</a></td>
     <td v-else>{{ song.songLink }}</td>
-    <!-- <td><a :href="song.songLink">{{ song.songLink }}}</a></td> -->
     <td>{{ song.playlists }}</td>
     <td><button @click="editSong(song)" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editSongModal">Edit</button></td>
     <td>

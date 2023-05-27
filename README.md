@@ -6,10 +6,11 @@ This is J. Rose's personal website made in Vue.js 3.
 
 ### Author: J. Rose
 
-### Version: 1.0.0
+### Version: 2.0.0
 
 ## Change log
 
+- 05-26-23 (2.0.0): Added password protection and Dance Wiki page.
 - 05-24-23 (1.0.0): Added the rest of the blog.
 - 05-18-23 (0.3.1): Freshened up main blog page.
 - 05-17-23 (0.3.0): Added blog page. Added icons to footer.
@@ -20,18 +21,15 @@ database data is changed. Added count feature.
 
 ### Links and Resources
 
-- Vue.js 3
-- MongoDB
-- [Bootstrap 5 (navbar, modal, form, cards, list group)](https://getbootstrap.com/)
+- [Vue.js] 3(https://vuejs.org/guide/introduction.html)
+- [MongoDB](https://www.mongodb.com/)
+- [Bootstrap 5 (navbar, modal, form, cards, list group, footer)](https://getbootstrap.com/)
 - [Sidebar on Explore page](https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#)
 - [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)
 - [Icons8](https://icons8.com)
-- [FontAwesome](https://fontawesome.com/)
+- [FontAwesome 6](https://fontawesome.com/)
 - [Boxicons](https://boxicons.com/)
-<!-- - [Bootstrap navbar](https://getbootstrap.com/docs/5.2/components/navbar/) -->
-<!-- * [scrollToTop code](https://stackoverflow.com/questions/50449123/vue-js-scroll-to-top-of-page-for-same-route)
-* [calculateAge code](https://smokeyfro.com/tutorials/calculate-your-age-with-vue) -->
-<!-- * [Lax.js code from alexfox.dev](https://alexfox.dev/laxxx/) -->
+- [calculateAge code](https://smokeyfro.com/tutorials/calculate-your-age-with-vue)
 
 ### Images
 

@@ -1,0 +1,56 @@
+@import 'colors';
+
+.dance-wiki {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* navbar */
+.dance-wiki nav {
+  background-color: $theme-red;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 30px;
+
+  & a {
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  & a:hover {
+    // color: #dddddd;
+    color: #4f555c;
+    background-color: rgba($color: #CBC3E3, $alpha: 0.3);
+    border-radius: 10px;
+  }
+
+  & a.router-link-exact-active {
+    color: white;
+  }
+
+  img {
+    height: 30px;
+    width: 30px;
+    box-shadow: 1px 1px 4px #141414; 
+    margin-bottom: 4px;
+  }
+
+  & .nav-links {
+    margin: auto auto;
+  }
+}
+
+.dance-wiki .navbar-brand:hover {
+  background-color: $theme-red;
+}
+
+.dance-wiki form {
+  margin: 10px;
+  margin-bottom: 20px;
+  & label {
+    font-weight: 600;
+  }
+}
