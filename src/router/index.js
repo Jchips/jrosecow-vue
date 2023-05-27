@@ -22,7 +22,7 @@ const routes = [
   {
     path: '/protected/blog',
     name: 'blog',
-    component: () => import(/* webpackChunkName: "about" */ '../views/protected/BlogView.vue'),
+    component: () => import(/* webpackChunkName: "blog" */'../views/protected/BlogView.vue'),
     meta: {
       title: 'Blog',
       requiresAuth: true,
@@ -31,7 +31,7 @@ const routes = [
   {
     path: '/movie-reviews',
     name: 'movie reviews',
-    component: () => import(/* webpackChunkName: "about" */ '../views/protected/MovieReviews.vue'),
+    component: () => import('../views/protected/MovieReviews.vue'),
     meta: {
       title: 'Movie Reviews'
     }
@@ -39,7 +39,7 @@ const routes = [
   {
     path: '/vs',
     name: 'vs',
-    component: () => import(/* webpackChunkName: "about" */ '../views/VSView.vue'),
+    component: () => import('../views/VSView.vue'),
     meta: {
       title: 'VS'
     }
@@ -47,7 +47,7 @@ const routes = [
   {
     path: '/explore',
     name: 'explore',
-    component: () => import(/* webpackChunkName: "about" */ '../views/ExploreView.vue'),
+    component: () => import('../views/ExploreView.vue'),
     meta: {
       title: 'Explore'
     }
@@ -55,7 +55,7 @@ const routes = [
   {
     path: '/music',
     name: 'music',
-    component: () => import(/* webpackChunkName: "about" */ '../views/protected/MusicView.vue'),
+    component: () => import(/* webpackChunkName: "blog" */ '../views/protected/MusicView.vue'),
     meta: {
       title: 'Music',
       requiresAuth: true
@@ -64,7 +64,7 @@ const routes = [
   {
     path: '/dance-blog',
     name: 'dance blog',
-    component: () => import(/* webpackChunkName: "about" */ '../views/protected/DanceBlog.vue'),
+    component: () => import(/* webpackChunkName: "blog" */ '../views/protected/DanceBlog.vue'),
     meta: {
       title: 'Dance Blog',
       requiresAuth: true
@@ -73,7 +73,7 @@ const routes = [
   {
     path: '/film-blog',
     name: 'film blog',
-    component: () => import(/* webpackChunkName: "about" */ '../views/protected/FilmBlog.vue'),
+    component: () => import(/* webpackChunkName: "blog" */'../views/protected/FilmBlog.vue'),
     meta: {
       title: 'Film Blog',
       requiresAuth: true
@@ -82,7 +82,7 @@ const routes = [
   {
     path: '/tech-reviews',
     name: 'tech reviews',
-    component: () => import(/* webpackChunkName: "about" */ '../views/TechReviews.vue'),
+    component: () => import('../views/TechReviews.vue'),
     meta: {
       title: 'Tech Reviews'
     }
@@ -90,7 +90,7 @@ const routes = [
   {
     path: '/protected',
     name: 'login',
-    component: () => import(/* webpackChunkName: "about" */ '../views/PasswordProtection.vue'),
+    component: () => import('../views/PasswordProtection.vue'),
     meta: {
       title: 'Login'
     }
