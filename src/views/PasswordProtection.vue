@@ -21,7 +21,6 @@
 </template>
 
 <style>
-
 .protected .card {
   margin: 30px auto;
 }
@@ -60,18 +59,11 @@ export default {
         const token = response.data.token ? response.data.token : null;
         console.log(token);
 
-        // Store the token in local storage or Vuex state
-        // localStorage.setItem('token', token);
-
-        // Redirect to protected page or perform other actions
-        // this.$router.push('/login/blog');
-        // this.checkAuthentication();
-
         if (token) {
           localStorage.setItem('token', token);
           this.isAuthenticated = true;
           document.getElementById("alert").style.display = 'none';
-          this.$router.push('/protected/blog');       
+          this.$router.push('/protected/blog');
         } else {
           console.log('incorrect username or password');
           document.getElementById("alert").style.display = 'block';
@@ -84,11 +76,13 @@ export default {
         this.checkAuthentication();
       }
     },
+
+    // checks that user's jwt token is still valid
     checkAuthentication() {
       const token = localStorage.getItem('token'); // Retrieve the token from local storage
 
       if (token) {
-        // Include the token in the Authorization header for authentication
+        // Includes the token in the Authorization header for authentication
         axios.defaults.headers.common['authorization'] = `Bearer ${token}`;
 
         // Make a request to a protected route to check if the token is valid
@@ -111,7 +105,6 @@ export default {
         this.isAuthenticated = false;
         console.log('authentication:', 'no token found');
       }
-      // console.log('authentication:', this.isAuthenticated);
     },
   },
   mounted() {

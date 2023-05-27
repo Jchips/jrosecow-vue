@@ -14,9 +14,6 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue'),
     meta: {
       title: 'About J. Rose'
@@ -25,9 +22,6 @@ const routes = [
   {
     path: '/protected/blog',
     name: 'blog',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/protected/BlogView.vue'),
     meta: {
       title: 'Blog',
@@ -37,9 +31,6 @@ const routes = [
   {
     path: '/movie-reviews',
     name: 'movie reviews',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/protected/MovieReviews.vue'),
     meta: {
       title: 'Movie Reviews'
@@ -48,9 +39,6 @@ const routes = [
   {
     path: '/vs',
     name: 'vs',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/VSView.vue'),
     meta: {
       title: 'VS'
@@ -59,9 +47,6 @@ const routes = [
   {
     path: '/explore',
     name: 'explore',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/ExploreView.vue'),
     meta: {
       title: 'Explore'
@@ -70,9 +55,6 @@ const routes = [
   {
     path: '/music',
     name: 'music',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/protected/MusicView.vue'),
     meta: {
       title: 'Music',
@@ -82,9 +64,6 @@ const routes = [
   {
     path: '/dance-blog',
     name: 'dance blog',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/protected/DanceBlog.vue'),
     meta: {
       title: 'Dance Blog',
@@ -94,9 +73,6 @@ const routes = [
   {
     path: '/film-blog',
     name: 'film blog',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/protected/FilmBlog.vue'),
     meta: {
       title: 'Film Blog',
@@ -106,9 +82,6 @@ const routes = [
   {
     path: '/tech-reviews',
     name: 'tech reviews',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/TechReviews.vue'),
     meta: {
       title: 'Tech Reviews'
@@ -117,9 +90,6 @@ const routes = [
   {
     path: '/protected',
     name: 'login',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/PasswordProtection.vue'),
     meta: {
       title: 'Login'
@@ -128,9 +98,6 @@ const routes = [
   // {
   //   path: '/gen-z-dance-wiki',
   //   name: 'gen z dance wiki',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
   //   component: () => import(/* webpackChunkName: "about" */ '../views/GenZDanceWiki.vue')
   // }
 ]
@@ -141,22 +108,20 @@ const router = createRouter({
 })
 
 // Update page title based on the current route
+// Code from: https://bytelanguage.com/2020/08/31/private-routes-using-vuejs/
 router.beforeEach(async (to, from, next) => {
   document.title = to.meta.title || 'Default Page Title';
 
   // Navigation Guard
-  const isAuthenticated = pass(); // Implement your own authentication check logic
-
+  const isAuthenticated = pass();
   if (to.matched.some((route) => route.meta.requiresAuth)) {
     // Route requires authentication
-    console.log(isAuthenticated);
    if ( await isAuthenticated) {
       // User is authenticated, allow navigation
-      console.log('here');
       next();
     } else {
       // User is not authenticated, redirect to login or show an unauthorized message
-      next('protected'); // Example: Redirect to Home route
+      next('protected');
     }
   } else {
     // Route does not require authentication, allow navigation
@@ -165,60 +130,34 @@ router.beforeEach(async (to, from, next) => {
 });
 
 function pass() {
-  // Implement your authentication check logic
   return checkAuthentication();
-
-  // const token = localStorage.getItem('token');
-  // return token; // Example: Check if the token is null or not
 }
 
 function checkAuthentication() {
   let token = localStorage.getItem('token'); // Retrieve the token from local storage
 
   if (token) {
-    // Include the token in the Authorization header for authentication
+    // Includes the token in the Authorization header for authentication
     axios.defaults.headers.common['authorization'] = `Bearer ${token}`;
 
     // Make a request to a protected route to check if the token is valid
     return axios.get(`${process.env.VUE_APP_SERVER}/protected/blog`)
       .then((response) => {
         console.log('router response', response.data.message);
-        return true; // Authentication is successful, return true
+        return true; // Authentication is successful
       })
       .catch((err) => {
         // Token is invalid or expired, the user is not authenticated
         console.error(err);
         localStorage.setItem('token', null);
-        return false; // Authentication failed, return false
+        return false;
       });
   } else {
     // No token found, the user is not authenticated
     console.log('authentication:', 'no token found');
-    return false; // Authentication failed, return false
+    return false;
   }
 }
-// function checkAuthentication() {
-//   let token = localStorage.getItem('token'); // Retrieve the token from local storage
-
-//   if (token) {
-//     // Include the token in the Authorization header for authentication
-//     axios.defaults.headers.common['authorization'] = `Bearer ${token}`;
-
-//     // Make a request to a protected route to check if the token is valid
-//     axios.get(`${process.env.VUE_APP_SERVER}/protected/blog`)
-//       .then((response) => {
-//         console.log('router response', response.data.message);
-//       })
-//       .catch((err) => {
-//         // Token is invalid or expired, the user is not authenticated
-//         console.error(err);
-//         localStorage.setItem('token', null);
-//       });
-//   } else {
-//     // No token found, the user is not authenticated
-//     console.log('authentication:', 'no token found');
-//   }
-// }
 
 
 export default router
