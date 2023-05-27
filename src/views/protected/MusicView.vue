@@ -11,7 +11,7 @@
       </div>
     </section>
     <div class="container">
-      <div class="table-responsive">
+      <div>
 
         <!-- My New Music Table -->
         <TableView :music="music" :delete-song="deleteSong" :edit-song="editSong" :handleCheckbox="handleCheckbox"

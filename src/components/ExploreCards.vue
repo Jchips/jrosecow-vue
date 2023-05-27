@@ -1,5 +1,5 @@
 <template>
-  <div class="card" style="width: 22rem">
+  <div class="card" style="max-width: 22rem">
     <a :href="card.img_path" :data-lightbox="card.lightbox_cat">
       <img :src="card.img_path" class="card-img-top" :alt="card.lightbox_cat">
     </a>

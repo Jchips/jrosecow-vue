@@ -1,6 +1,7 @@
 /** 
 * Some of this css is from Bootstrap 5 sidebar - https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#
 */
+@import "settings.responsive";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
 $explore-purple: #4723D9;
@@ -206,10 +207,11 @@ $explore-purple: #4723D9;
     background-color: #dcdbe3;
     // background-color: #91A6FF;
     border: none;
+    margin: 10px;
   }
 
   & .card:hover { 
-    transform: scale(1.02); 
+    transform: scale(1.02);
   }
 
   & .card-img-top {
@@ -220,5 +222,9 @@ $explore-purple: #4723D9;
 
   & .card-body a {
     background-color: #4723D9;
+  }
+
+  & .card-body a:hover {
+    background-color: #0b5ed7;
   }
 }

@@ -27,10 +27,6 @@
               <li><router-link to="/protected/blog" class="dropdown-item">Blog</router-link></li>
               <li><router-link to="/movie-reviews" class="dropdown-item">Reviews</router-link></li>
               <li><router-link to="/vs" class="dropdown-item">VS</router-link></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">...</a></li>
             </ul>
           </li>
           <li class="nav-item">

@@ -1,13 +1,14 @@
 <template>
-  <main class="row">
-    <aside class="col-lg-2">
+  <main>
+    <aside>
       <div class="aside-container">
         <h3>Table of contents</h3>
-        <a class="nav-link" href="#">Scroll to top</a>
+        <!-- <a class="nav-link" href="#">Scroll to top</a> -->
         <a class="nav-link" :href="'#' + blogPost.id" v-for="blogPost in blog" :key="blogPost.id">&bull; {{ blogPost.title }}</a>
       </div>
     </aside>
-    <section class="blogs col-lg-9">
+    <section class="blogs text-center">
+      <a class="nav-link scroll-to-top" href="#">Scroll to top</a>
       <BlogPost v-for="blogPost in blog" :key="blogPost.id" :blogPost="blogPost"/>
     </section>
   </main>
@@ -16,16 +17,16 @@
 <script>
 import BlogPost from "@/components/BlogPost.vue"
 export default {
-  data () {
-    return {
-
-    }
-  },
   props: {
     blog: Object
   },
   components: {
     BlogPost
-  }
+  },
+  // mounted() {
+  //   this.$refs.blogPost.map(post => {
+  //     console.log(post.$el.style.maxWidth);
+  //   });
+  // }
 }
 </script>

@@ -6,10 +6,11 @@ This is J. Rose's personal website made in Vue.js 3.
 
 ### Author: J. Rose
 
-### Version: 2.0.0
+### Version: 2.0.1
 
 ## Change log
 
+- 05-27-23 (2.0.1): Made page more adaptable to mobile screens.
 - 05-26-23 (2.0.0): Added password protection and Dance Wiki page.
 - 05-24-23 (1.0.0): Added the rest of the blog.
 - 05-18-23 (0.3.1): Freshened up main blog page.
@@ -21,7 +22,7 @@ database data is changed. Added count feature.
 
 ### Links and Resources
 
-- [Vue.js] 3(https://vuejs.org/guide/introduction.html)
+- [Vue.js 3](https://vuejs.org/guide/introduction.html)
 - [MongoDB](https://www.mongodb.com/)
 - [Bootstrap 5 (navbar, modal, form, cards, list group, footer)](https://getbootstrap.com/)
 - [Sidebar on Explore page](https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#)
@@ -40,7 +41,6 @@ database data is changed. Added count feature.
 
 Blog images:
 <https://unsplash.com/photos/Hli3R6LKibo>
-
 
 ## Project setup
 

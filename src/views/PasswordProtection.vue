@@ -1,9 +1,10 @@
 <template>
   <div class="protected container">
     <h2>Please sign in to access</h2>
-    <div class="card" style="width: 25rem;">
+    <div class="card" style="max-width: 25rem;">
       <div class="card-body">
-        <div id="alert" class="alert alert-info" role="alert" style="display: none;">Incorrect username or password</div>
+        <div id="failed-alert" class="alert alert-info" role="alert" style="display: none;">Incorrect username or password</div>
+        <div id="success-alert" class="alert alert-success" role="alert" style="display: none;">Success</div>
         <form @submit="handleSubmit">
           <div class="mb-3">
             <label for="username" class="form-label">Username</label>
@@ -62,11 +63,13 @@ export default {
         if (token) {
           localStorage.setItem('token', token);
           this.isAuthenticated = true;
-          document.getElementById("alert").style.display = 'none';
+          document.getElementById("failed-alert").style.display = 'none';
+          document.getElementById("success-alert").style.display = 'block';
           this.$router.replace(this.$route.redirectedFrom);
         } else {
           console.log('incorrect username or password');
-          document.getElementById("alert").style.display = 'block';
+          document.getElementById("success-alert").style.display = 'none';
+          document.getElementById("failed-alert").style.display = 'block';
           localStorage.setItem('token', null);
         }
       } catch (error) {
