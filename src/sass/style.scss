@@ -1,3 +1,5 @@
+@import 'settings.responsive';
+
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -49,6 +51,9 @@ footer {
   font-size: 13px;
   border-top: 5px solid black;
   clear: both;
+  @include media-query(mobile) {
+    text-align: center;
+  }
 }
 
 footer h1 {

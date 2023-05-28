@@ -2,7 +2,7 @@
 
 ## Jrosecow site
 
-This is J. Rose's personal website made in Vue.js 3.
+This is frontend to J. Rose's personal website made with Vue.js 3.
 
 ### Author: J. Rose
 
@@ -30,7 +30,9 @@ database data is changed. Added count feature.
 - [Icons8](https://icons8.com)
 - [FontAwesome 6](https://fontawesome.com/)
 - [Boxicons](https://boxicons.com/)
+- [Hero image from W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 - [calculateAge code](https://smokeyfro.com/tutorials/calculate-your-age-with-vue)
+<!-- - [Responsive table code](https://css-tricks.com/responsive-data-tables/) -->
 
 ### Images
 

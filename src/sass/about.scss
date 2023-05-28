@@ -86,14 +86,6 @@ h6 {
 section {
   margin-top: 10px;
   padding: 40px 44px;
-  // background-color: rgb(187, 95, 227);
-  // background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-  // color: #eee;
-  // border: 20px solid black;
-
-  // & h6 {
-  //   margin-bottom: 20px;
-  // }
 }
 
 .favs-facts-container {
@@ -102,12 +94,7 @@ section {
 
   & article {
     padding: 30px;
-    // background-color: rgba(240, 240, 240, 0.6);
-    // background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
     color: #eee;
-    // border: 20px solid black;
-    // border: 1px solid #f0f0f0;
-    // background-color: #F7F6FB;
     color: #000;
     border-radius: 10px;
     margin: 10px;
@@ -121,14 +108,28 @@ section {
   }
 
   & ul {
-    // background-color: rgba(240, 240, 240, 0.6);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    // position: absolute;
   }
 
   & li span {
     font-weight: bold;
     text-transform: capitalize;
+  }
+}
+
+/* MOBILE DISPLAY */
+
+@media screen and (max-width: 768px) {
+  main {
+    padding: 64px 10px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  .favs-facts-container article {
+    padding: 10px;
   }
 }
