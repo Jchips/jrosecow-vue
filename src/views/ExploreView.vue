@@ -46,11 +46,11 @@
               </a>
 
               <!-- Dance wiki -->
-              <router-link to="/gen-z-dance-wiki" class="nav_link" title="dance wiki">
+              <a href="https://dance-wiki.netlify.app/" class="nav_link" title="dance wiki">
                 <img class="nav_icon" width="24" height="24" src="https://img.icons8.com/ios/50/AFA5D9/dancing.png"
                   alt="dancing" />
                 <span class="nav_name">Dance Wiki</span>
-              </router-link>
+              </a>
 
               <!-- Jphones.com -->
               <a href="https://jphones.netlify.app/" class="nav_link" title="J. Phones">
@@ -65,10 +65,10 @@
               </router-link>
 
               <!-- TV -->
-              <a href="#" class="nav_link disabled" title="TV">
+              <router-link to="/tv-shows" class="nav_link" title="TV">
                 <i class="bx bx-tv nav_icon"></i>
                 <span class="nav_name">TV</span>
-              </a>             
+              </router-link>             
             </div>
           </div>
           <!-- <a href="#" class="nav_link">

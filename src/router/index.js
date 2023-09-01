@@ -89,10 +89,19 @@ const routes = [
   },
   {
     path: '/protected',
-    name: 'login',
+    name: 'sign in',
     component: () => import('../views/PasswordProtection.vue'),
     meta: {
-      title: 'Login'
+      title: 'Sign in'
+    }
+  },
+  {
+    path: '/tv-shows',
+    name: 'tv shows',
+    component: () => import('../views/protected/TV.vue'),
+    meta: {
+      title: 'TV Shows',
+      requiresAuth: true
     }
   },
   {

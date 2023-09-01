@@ -1,4 +1,5 @@
 $explore-purple: #4723D9;
+@import 'settings.responsive';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 /* my code */
@@ -34,6 +35,9 @@ $explore-purple: #4723D9;
     color:rgb(33, 37, 41);
     background-color: #F7F6FB;
     border-radius: 5px;
+    @include media-query(mobile) {
+      margin: 5px;
+    }
   }
 
   & a:hover {
@@ -47,37 +51,37 @@ $explore-purple: #4723D9;
 }
 
 .blog main {
-  padding-left: 64px;
+  // padding-left: 64px;
   position: relative;
 }
 .blog aside {
   // padding: 40px;
   padding-left: 0;
   padding-top: 40px;
-  // display: flex;
-  // flex-direction: column;
-  // background-color: rgba(247, 246, 251, 0.3);
-  // border-top-right-radius: 10px;
-  // border-bottom-right-radius: 10px;
+  max-width: 32vh;
   position: fixed;
-  // top: 240px;
-  // bottom: 180px;
   left: 0;
   z-index: 2;
+  @include media-query(desk-max) {
+    position: static;
+    max-width: 80%;
+    margin: auto auto;
+  }
 
   & .aside-container {
     padding: 40px;
     display: flex;
     flex-direction: column;
-    // background-color: rgba(247, 246, 251, 0.3);
-    // background-color: #AFA5D9;
-    // background-color: white;
     color: white;
     background-color: rgb(33, 37, 41);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     font-size: 0.8rem;
     // height: 50vh;
+    @include media-query(desk-max) {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
   }
 
   & a {
@@ -89,11 +93,27 @@ $explore-purple: #4723D9;
 
 .blogs {
   margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // max-width: 130vh;
+
+  & .scroll-to-top {
+    position: fixed;
+    margin: 5px;
+    padding: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(206, 205, 205, 0.8);
+    border-radius: 5px;
+    font-weight: 600;
+  }
 }
 
 .blog-post-image {
   height: 45%;
-  // background-position: 0 18%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -103,8 +123,8 @@ $explore-purple: #4723D9;
 .paper {
   background-color: #fff;
   background-size: 100%;
-  // width: 85%;
-  margin: 40px auto;
+  max-width: 130vh;
+  margin: 40px 30px;
   padding-bottom: 32px;
   border: 1px solid black;
   -webkit-filter: drop-shadow(5px 5px 10px white);

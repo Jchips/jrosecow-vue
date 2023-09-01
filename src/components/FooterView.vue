@@ -4,7 +4,7 @@
     <div class="container-fluid text-md-left">
       <div class="row">
         <div class="col-md-6 mt-md-0 mt-3">
-          <h5 class="text-uppercase">Jaye Rose Contact</h5>
+          <h5 class="text-uppercase">J. Rose Contact</h5>
           <p>Here you can find multiple ways to contact me.</p>
           <p class="sources">I'm not being paid for this site.</p>
           <p class="sources"><a target="_blank" href="https://icons8.com/icon/5077/dance">Dance</a> and <a target="_blank" href="https://icons8.com/icon/3875/therapy">therapy</a> icons on certain pages by <a target="_blank" href="https://icons8.com">Icons8</a></p>

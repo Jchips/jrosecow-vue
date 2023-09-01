@@ -11,7 +11,7 @@
           <!-- Carousel indicators -->
           <div class="carousel-indicators">
             <div v-for="(imgs, index) in selectedDancer.imgs" :key="index">
-              <button type="button" data-bs-target="#carouselExampleIndicators" :data-bs-slide-to="index" :class="index === 0 ? 'active' : ''" :aria-current="index === 0 ? 'true' : 'false'" :aria-label="`Slide ${index + 1}`"></button>
+              <button type="button" :data-bs-target="`#${selectedDancer.id}-imgs`" :data-bs-slide-to="index" :class="index === 0 ? 'active' : ''" :aria-current="index === 0 ? 'true' : 'false'" :aria-label="`Slide ${index + 1}`"></button>
             </div>
           </div>
 

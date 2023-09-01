@@ -1,7 +1,7 @@
 <template>
   <nav>
     <h1><slot></slot></h1>
-    <ul class="nav justify-content-end">
+    <ul class="nav">
       <li class="nav-item">
         <!-- <a class="nav-link active" aria-current="page" href="#">Main blog</a> -->
         <router-link class="nav-link" to="/protected/blog">Main blog</router-link>

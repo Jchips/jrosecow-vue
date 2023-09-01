@@ -38,6 +38,8 @@
   border: 2px solid #9c9c9c;
   margin: 40px 0;
   background-color: #f0f1ff;
+  width: 100%;
+  position: relative;
 }
 
 .music-container .table-title {
@@ -64,6 +66,7 @@
 .music-container td {
   vertical-align: middle;
   border: 1px solid #6a6a6a;
+  position: relative;
 }
 
 .music-container td img {
@@ -80,4 +83,6 @@
 .music-container a {
   // color: rgb(33, 37, 41);
   color: #6a6a6a;
+  font-size: 12px;
 }
+

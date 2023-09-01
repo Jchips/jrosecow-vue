@@ -1,4 +1,4 @@
-@import 'colors';
+@import 'dancewiki.colors';
 
 .dance-wiki {
   scroll-behavior: auto; // not working for whatever reason
@@ -88,6 +88,11 @@
     object-fit: contain;
     border-radius: 20px;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+  }
+
+  & .carousel-control-prev-icon,
+  & .carousel-control-next-icon {
+    filter: invert(50%);
   }
 }
 

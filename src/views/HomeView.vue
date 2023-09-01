@@ -12,7 +12,7 @@
       <section class="of-the-week">
         <article class="video">
           <h2>Video of the week</h2>
-          <iframe src="https://www.youtube.com/embed/OzmiPxnZtgc" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/oX44x5Jke_w?si=nMHDIb-7162GJcmo" allowfullscreen></iframe>
         </article>
         <article class="songs">
           <h2>Songs of the week</h2>
@@ -21,7 +21,7 @@
               height="80" frameBorder="0" allowfullscreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             <br>
-            <iframe src="https://open.spotify.com/embed/track/0ll8uFnc0nANY35E0Lfxvg?utm_source=generator" width="100%"
+            <iframe src="https://open.spotify.com/embed/track/5OHKDZKGgQhkARGzXhUbQn?utm_source=generator" width="100%"
              height="80" frameBorder="0" allowfullscreen="" 
              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             <br />
