@@ -1,0 +1,368 @@
+.tv {
+  opacity: 1;
+  padding: 20px 0;
+  padding-top: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(0,0,0);
+}
+
+h1 {
+  text-align: center;
+  // margin: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+aside {
+  position: fixed;
+  background-color: #d2d2d2;
+  padding: 5px;
+  border-radius: 100px;
+  margin-top: 5px;
+  // margin-top: 45px;
+   a {
+    // color: 
+    font-weight: 700;
+    text-decoration: none;
+   }
+}
+
+main {
+  margin-left: 30px;
+}
+
+.hr {
+  width: 100%;
+  margin: 40px 0;
+  // padding: 20px;
+  position: relative;
+  z-index: 5;
+  border-width: 0.0625rem 0px 0px;
+  border-bottom-style: initial;
+  border-bottom-color: initial;
+  border-left-style: initial;
+  border-left-color: initial;
+  border-right-style: initial;
+  border-right-color: initial;
+  border-top-style: solid;
+  border-top-color: rgb(218, 218, 218);
+}
+
+.hero-image {
+  height: 320px;
+  background-position: 0 18%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #eaf6fe;
+  text-align: center;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: #ebebeb;
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.jumbotron img {
+  width: 40px;
+  height: 25px;
+  object-fit: contain;
+  margin: 0 2px;
+}
+
+.img-cred,
+.img-cred a {
+  color: rgb(151, 151, 151);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.toggled-text {
+  margin: 15px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.genres {
+  font-size: 0.9rem;
+}
+
+p span {
+  font-weight: 600;
+}
+
+button {
+  margin: 5px;
+  // font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+  background-color: #eaf6fe;
+  padding: 20px 25px;
+  // font-size: 1.05rem;
+  text-align: center;
+}
+
+.rating {
+  height: 20px;
+  margin: auto auto;
+  width: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  text-align: left;
+}
+
+// Button
+.button {
+  display: inline-block;
+  padding: .55rem 1.2rem;
+  min-width: 210px;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-decoration: none;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #dc3545;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken(#dc3545, 15%);
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+// Hero images css
+// #alex-rider {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/alex-rider.jpg");
+//   background-position: 0 41%;
+// }
+
+// #all-american {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/all-american.jpg");
+// }
+
+// #a-g-t {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/agt.jpg");
+//   background-position: 0 40%;
+// }
+
+// #archive-81 {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/archive-81.jpg");
+//   background-position: 0 25%;
+// }
+
+// #batwoman {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/batwoman.png");
+//   background-position: 0 15%;
+// }
+
+// #the-bold-type {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/the-bold-type.jpg");
+// }
+
+// #the-boys {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.superherohype.com/assets/uploads/2020/05/The-Boys-Season-2-Poster-1280x720.png");
+//   background-position: 0 40%;
+// }
+
+// #the-chi {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/the-chi.jpg");
+//   background-position: 0 15%;
+// }
+
+#community {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/community.avif");
+  background-position: 0 75%;
+}
+
+// #d-w-t-s {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/dwts.png");
+//   background-position: 0 75%;
+// }
+
+// #euphoria {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/euphoria.jpeg");
+//   background-position: 0 15%;
+// }
+
+// #everyone-is-doing-great {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/Everyone-Is-Doing-Great.jpg");
+//   background-position: 0 15%;
+// }
+
+// #the-flash {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/the-flash.jpg");
+//   background-position: 0 30%;
+// }
+
+// #the-fosters {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/the-fosters.jpg");
+// }
+
+// #fresh-off-the-boat {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/fresh-off-the-boat.jpg");
+//   background-position: 0 20%;
+// }
+
+// #fresh-prince-of-bel-air {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/fresh-prince.jpg");
+//   background-position: 0 20%;
+// }
+
+// #good-luck-charlie {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/good-luck-charlie.jpg");
+//   background-position: 0 20%;
+// }
+
+// #grown-ish {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/grown-ish.jpg");
+// }
+
+#the-hardy-boys {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/the-hardy-boys.jpg");
+  background-position: 0 15%;
+}
+
+// #hart-of-dixie {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/hart-of-dixie.jpg");
+//   background-position: 0 16%;
+// }
+
+#h-i-m-y-m {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/h-i-m-y-m.jpg");
+}
+
+// #iron-fist {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/iron-fist.jpg");
+//   background-position: 0 10%;
+// }
+
+// #kc-undercover {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/kc-undercover.png");
+// }
+
+// #marvel-runaways {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/marvel-runaways.jpg");
+//   background-position: 0 5%;
+// }
+
+#modern-family {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/modern-family.jpg");
+  background-position: 0 0;
+}
+
+// #nancy-drew {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/nancy-drew.jpeg");
+//   background-position: 0 47%;
+// }
+
+#the-oa {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/the-oa.jpeg");
+  background-position: 0 0;
+}
+
+// #one-day-at-a-time {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/one-day-at-a-time.jpg");
+//   background-position: 0 15%;
+// }
+
+#one-tree-hill {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/one-tree-hill.jpg");
+  background-position: 0 20%;
+}
+
+#parks-and-rec {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/parks-&-rec.jpg");
+}
+
+#psych {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/psych.jpg");
+  background-position: 0 8%;
+}
+
+#rhythm-and-flow {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/rhythm-and-flow.bjsyMzk0MTMwO2o7MTg1Njc7MTIwMDsyMDAwOzExMjU");
+  background-position: 0 55%;
+}
+
+#rise {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/rise.jpg");
+  background-position: 0 0;
+}
+
+#soss {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/soss.jpg");
+  background-position: 0 60%;
+}
+
+// #shameless {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/shameless.jpg");
+// }
+
+// #survivors-remorse {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/survivors-remorse.jpg");
+//   background-position: 0 80%;
+// }
+
+#teen-wolf {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/teen-wolf.jpg");
+  background-position: 0 15%;
+}
+
+#utopia-falls {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/utopia-falls.jpg");
+  background-position: 0 30%;
+}
+
+#wild-n-out {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/wild-n-out.jpg");
+  background-position: 0 10%;
+}
+
+#world-of-dance {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/world-of-dance.jpg");
+  background-position: 0 26%;
+}

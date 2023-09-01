@@ -3,12 +3,13 @@
 ## Jrosecow site
 
 This is frontend to J. Rose's personal website made with Vue.js 3.
+The whole website is a CRUD app that utilizes MongoDB.
 
 ### Author: J. Rose
 
 ### Version: 2.0.1
 
-## Change log
+## Changelog
 
 - 05-27-23 (2.0.1): Made page more adaptable to mobile screens.
 - 05-26-23 (2.0.0): Added password protection and Dance Wiki page.
@@ -25,6 +26,7 @@ database data is changed. Added count feature.
 - [Vue.js 3](https://vuejs.org/guide/introduction.html)
 - [MongoDB](https://www.mongodb.com/)
 - [Bootstrap 5 (navbar, modal, form, cards, list group, footer)](https://getbootstrap.com/)
+- [Private routes in Vue.js](https://bytelanguage.com/2020/08/31/private-routes-using-vuejs/)
 - [Sidebar on Explore page](https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#)
 - [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)
 - [Icons8](https://icons8.com)

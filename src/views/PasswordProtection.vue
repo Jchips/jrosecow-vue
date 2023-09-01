@@ -1,6 +1,6 @@
 <template>
   <div class="protected container">
-    <h2>Please sign in to access</h2>
+    <h2>Requires authentication to access</h2>
     <div class="card" style="max-width: 25rem;">
       <div class="card-body">
         <div id="failed-alert" class="alert alert-info" role="alert" style="display: none;">Incorrect username or password</div>
@@ -22,8 +22,12 @@
 </template>
 
 <style>
+.protected {
+  padding: 5px;
+}
+
 .protected .card {
-  margin: 30px auto;
+  margin: 50px auto;
 }
 
 .protected h2 {
@@ -73,7 +77,7 @@ export default {
           localStorage.setItem('token', null);
         }
       } catch (error) {
-        alert('Incorrect password');
+        alert('Sorry, there has been a server error :(');
         console.error(error);
       } finally {
         this.checkAuthentication();

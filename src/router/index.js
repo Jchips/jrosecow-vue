@@ -96,6 +96,15 @@ const routes = [
     }
   },
   {
+    path: '/tv-shows',
+    name: 'tv shows',
+    component: () => import('../views/protected/TV.vue'),
+    meta: {
+      title: 'TV Shows',
+      requiresAuth: true
+    }
+  },
+  {
     path: '/gen-z-dance-wiki',
     name: 'gen z dance wiki',
     component: () => import(/* webpackChunkName: "blog" */ '../views/protected/GenZDanceWiki.vue'),

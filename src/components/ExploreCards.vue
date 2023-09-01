@@ -4,6 +4,7 @@
       <img :src="card.img_path" class="card-img-top" :alt="card.lightbox_cat">
     </a>
     <a v-if="card.img2_path" :href="card.img2_path" :data-lightbox="card.lightbox_cat"></a>
+    <a v-if="card.img3_path" :href="card.img3_path" :data-lightbox="card.lightbox_cat"></a>
     <div class="card-body">
       <h5 class="card-title">{{ card.card_title }}</h5>
       <p class="card-text">{{ card.card_text }}</p>

@@ -14,11 +14,11 @@
           Just a short black girl who likes music, coding and dance.
         </p>
         <p class="bio">
-          I currently live in the Pacific Northwest area, US, although I was born in Texas.
+          Hi! I currently live in the Pacific Northwest area, US, although I was born in Texas.
           I am 22yrs old and am working towards getting a certificate in software development with Code Fellows.
           Before Code Fellows, I was at the University of Washington, then Washington State University, then the University of Texas.
           My goal is to become a software developer in mobile and full-stack web development, and so far I have coding experience in 
-          Java, HTML/CSS, JavaScript, Kotlin, PHP, SQL, R and Python. My technical skills are React, Node.js and Vue.js.
+          Java, HTML/CSS, JavaScript, Kotlin, PHP, SQL, and R. My technical skills are React, Node.js, Vue.js, and MongoDB.
           I also love dance and watching TV shows, and I'm a huge phone geek... and I have a stuffed cow named Tipsy.
 
         </p>
