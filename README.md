@@ -7,10 +7,11 @@ The whole website is a CRUD app that utilizes MongoDB.
 
 ### Author: J. Rose
 
-### Version: 2.0.1
+### Version: 2.1.0
 
 ## Changelog
 
+- 09-01-23 (2.1.0): Added TV show reviews page.
 - 05-27-23 (2.0.1): Made page more adaptable to mobile screens.
 - 05-26-23 (2.0.0): Added password protection and Dance Wiki page.
 - 05-24-23 (1.0.0): Added the rest of the blog.
