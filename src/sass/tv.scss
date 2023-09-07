@@ -128,6 +128,10 @@ ol {
   text-align: left;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
 // Button
 .button {
   display: inline-block;
@@ -150,7 +154,7 @@ ol {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #dc3545;
+    background-color: rgb(33,37,41);
     border-radius: 10rem;
     z-index: -2;
   }
@@ -161,7 +165,7 @@ ol {
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: darken(#dc3545, 15%);
+    background-color: darken(rgb(33,37,41), 15%);
     transition: all .3s;
     border-radius: 10rem;
     z-index: -1;
@@ -175,10 +179,10 @@ ol {
 }
 
 // Hero images css
-// #alex-rider {
-//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/alex-rider.jpg");
-//   background-position: 0 41%;
-// }
+#alex-rider {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/alex-rider.jpg");
+  background-position: 0 41%;
+}
 
 // #all-american {
 //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/all-american.jpg");
@@ -284,10 +288,10 @@ ol {
 //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/kc-undercover.png");
 // }
 
-// #marvel-runaways {
-//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/marvel-runaways.jpg");
-//   background-position: 0 5%;
-// }
+#marvel-runaways {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/marvel-runaways.jpg");
+  background-position: 0 5%;
+}
 
 #modern-family {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/modern-family.jpg");
