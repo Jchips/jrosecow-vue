@@ -11,6 +11,7 @@ The whole website is a CRUD app that utilizes MongoDB.
 
 ## Changelog
 
+- 09-07-23 (2.1.1): Added shows.
 - 09-01-23 (2.1.0): Added TV show reviews page.
 - 05-27-23 (2.0.1): Made page more adaptable to mobile screens.
 - 05-26-23 (2.0.0): Added password protection and Dance Wiki page.

@@ -1,5 +1,29 @@
 [
   {
+    "id": "alex-rider",
+    "sort": "A",
+    "title": "Alex Rider",
+    "seasons": "2 seasons (2020-present)",
+    "availability": ["prime"],
+    "genres": "Action, Drama", 
+    "lgbtq": false,
+    "img_creds": "Rotten Tomatoes",
+    "img_link": "https://flxt.tmsimg.com/assets/p18378677_b_h10_ad.jpg",
+    "description": "is a British action and drama show about a 14yr old spy who works as an agent (sort of) for a spy company called MI6. The show is based on a long book series that I read in my middle school years, that had me playing spies in the basement with my neighbor. Anyway, Alex used to live with his uncle, Ian Rider, but then Ian gets murdered, and that’s how Alex finds out about his spy destiny that his uncle has been training him for all his life. If the TV series continues to be anything like the books, Alex’s spy life is pretty brutal. His adventures were rough and every time he was like “I won’t work for MI6 again,” but then still would in the next book. The show is very similar to the book from what I’ve found so far, although I can’t remember the books that well…. The series starts with the second book though. Ian is murdered in the first book, but then the rest of the first season is the second book, Point Blanc. The second season is based on Eagle Strike.",
+    "my_thoughts": ["The series isn’t that bad. I totally had forgotten that the series was British. Alex has a best friend named Tom Harris in the TV series that I can’t remember if he is in the books or not, but he is kinda annoying in the show. Moreover, I think Alex should be like 16 or at least 15 because 14 is just too young, and he looks about 16. The seasons are only 8 episodes which, in my opinion, is not enough, but to be fair, they do sum up the stories pretty well. The first season just felt a bit rushed. Even 9 might have been better. Also, in my opinion, the second season was much better than the first season (though the first wasn’t bad)."],
+    "toggle_my_thoughts": false,
+    "rating_img": "./assets/ratings/4-stars.png",
+    "thoughts_with_spoilers": ["I like how the second season was all Alex without help from MI6 and he was the one who was right about what was going on. It really showed Alex’s talent and heroism. I also like how Kyra was included in the second season again. I do feel like the show was edging Tom and Kyra to be together though, and I don’t ship that for a second. Oh, and I think Sabina owes Alex an apology. She is a butthole."],
+    "toggle_thoughts_with_spoilers": false,
+    "tv_sins": [
+      "They said Point Blanc was miles away from the nearest city and one would be dead within the hour if they tried to escape, and then Alex just snow boards down a hill, finds a road, and then is safe?",
+      "How strong is Alex supposed to be so that he can just break apart a folding table and then bend it like it’s nothing??",
+      "How tf did the Alex clone get out of Point Blanc? The real Alex “snow boarded,” but we just see the clone walk out and then end up at the road even though he should be dead from hypothermia within an hour if the show follows it’s own rules. They just escaped the school like it was nothing.",
+      "And while we’re talking about the clone, how did it know where Alex goes to school? The only information the clone should have is on Alex Friend, right? Not Alex Rider. It should not know where Alex Rider lives and goes to school."
+    ],
+    "toggle_tv_sins": false
+  },
+  {
     "id": "community",
     "sort": "C",
     "title": "Community",
@@ -84,8 +108,24 @@
     ]
   },
   {
-    "id": "modern-family",
+    "id": "marvel-runaways",
     "sort": "M",
+    "title": "Marvel Runaways",
+    "seasons": "3 seasons (2017-2019)",
+    "availability": ["hulu"],
+    "genres": "Action, Drama", 
+    "lgbtq": true,
+    "img_creds": "The Hollywood Reporter",
+    "img_link": "https://www.hollywoodreporter.com/tv/tv-news/runaways-marvels-hulu-series-explained-1058822/",
+    "description": "is a superhero, action/adventure show about 6 teenagers: Alex, Karolina, Nico, Chase, Gert, and Molly, and their parents. The parents are all very rich and successful and part of an evil group called Pride lead by some non-human leader, but their kids believe they are just part of an annual charity fundraiser. That is until they catch their parents doing their evil ritual one night. After discovering that their parents have been lying, they seek out answers for what their parents really are and end up running away and living on their own together. They consider their parents their enemies, although their parents still really care for all of them and do just about everything they can to get the children to come back except stop being evil 💀.  As a warning, the show features a lot of deaths.",
+    "my_thoughts": [
+      "The show started off pretty intriguing but then went downhill for me by the end of the 1st season and never picked back up. I was expecting more of a reveal at the end about what all was going on, but instead, everything just felt underwhelming, and it doesn’t help that half the characters in the show are just annoying/unbearable asf. I ended up not finishing season 2 and don’t think I ever will. The show just got to the point where it was so annoying to me and I felt like I was always yelling at the characters “bruh, why would you do that!?” and sh*t. It was tiring 😂. I also heard that the show ends on a cliffhanger bc the writers didn’t realize the show was gonna be canceled (which brings me back to my viewpoint that shows should ALWAYS wrap things up for each season by the season finale. Otherwise…wtf is the point of having seasons…??). I think I initially tried this show just because it was Marvel, and I like Marvel, but pbbbhhhhhtt. My favorite character was probably either Karolina (even tho she was annoying for secretly meeting with Jonah) and Nico’s dad. Nico's dad seemed to be the one with the most sense in the show, and I kinda felt bad for him when he had these very strong feelings for Chase’s mom that she didn’t end up reciprocating. But, for me, this show was just too annoying overall to enjoy. The first episode is definitely the best and really makes this show seem like it has promise, but then it all goes downhill from there."
+    ],
+    "toggle_my_thoughts": false,
+    "rating_img": "./assets/ratings/1.5-stars.png"
+  },
+  {
+    "id": "modern-family",
     "title": "Modern Family",
     "seasons": "11 seasons (2009-2020)",
     "availability": ["abc", "hulu"],
