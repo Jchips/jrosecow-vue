@@ -9,7 +9,7 @@
       <h5 class="card-title">{{ card.card_title }}</h5>
       <p class="card-text">{{ card.card_text }}</p>
       <p class="card-text"><small class="text-muted">Built with {{ card.project_lang }}</small></p>
-      <a :href="card.project_link" class="btn btn-primary">Go to site</a>
+      <a :href="card.project_link" target="_blank" class="btn btn-primary">Go to site</a>
     </div>
   </div>
 </template>
