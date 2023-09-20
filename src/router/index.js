@@ -103,15 +103,6 @@ const routes = [
       title: 'TV Shows',
       requiresAuth: true
     }
-  },
-  {
-    path: '/gen-z-dance-wiki',
-    name: 'gen z dance wiki',
-    component: () => import(/* webpackChunkName: "blog" */ '../views/protected/GenZDanceWiki.vue'),
-    meta: {
-      title: 'Dance Wiki',
-      requiresAuth: true
-    }
   }
 ]
 
