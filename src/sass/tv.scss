@@ -308,10 +308,10 @@ li {
   background-position: 0 0;
 }
 
-// #one-day-at-a-time {
-//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/one-day-at-a-time.jpg");
-//   background-position: 0 15%;
-// }
+#one-day-at-a-time {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/one-day-at-a-time.jpg");
+  background-position: 0 15%;
+}
 
 #one-tree-hill {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/one-tree-hill.jpg");

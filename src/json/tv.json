@@ -171,6 +171,26 @@
     ]
   },
   {
+    "id": "one-day-at-a-time",
+    "title": "One Day at a Time",
+    "seasons": "3 seasons (2017-2020)",
+    "availability": ["netflix"],
+    "genres": "Sitcom", 
+    "lgbtq": true,
+    "img_creds": "Variety",
+    "img_link": "https://variety.com/wp-content/uploads/2020/01/one-day-at-a-time-keyart-e1578968463996.jpg",
+    "description": "is a 3-season sitcom about a Cuban American family. The family, the Alvarez’s, live in an apartment together with 3 generations: Lydia the grandma, Penelope (Lupe/Lupita) the single mom, and Elena & Alex, the kids who are 15 & 13. Their white Canadian neighbor, Schneider, is practically part of the family too because he spends a lot of time at their place and looks after Alex sometimes. Penelope is a war veteran who had to split up with her husband, Victor, because after the war he had a lot of PTSD that he wasn’t willing to get help with. Hence, he became dangerous for the kids. Elena is very feminist and progressive. Alex is pretty chill, Lydia loves Cuba a lot, Lupe is a nurse but studying to be a nurse practitioner, and Schneider is just dumb and has girls over in his apartment a lot. The other frequent cast is Lupe’s work pals at the nurse's office.",
+    "toggle_my_thoughts": false,
+    "my_thoughts": [
+      "I just kinda ran into this show on Netflix and decided to try it, and it’s pretty funny, ngl. Elena is probably my favorite character, although Lydia is no doubt the funniest. I like how Spanish gets mixed into the series a lot. I wish this show hadn’t gotten canceled."
+    ],
+    "rating_img": "./assets/ratings/3.5-stars.png",
+    "toggle_fav_episodes": false,
+    "fav_episodes": [
+      "S2E3 To Zir, With Love ⭐️"
+    ]
+  },
+  {
     "id": "one-tree-hill",
     "title": "One Tree Hill",
     "seasons": "9 seasons (2003-2011)",
