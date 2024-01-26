@@ -12,7 +12,6 @@
 </style>
 
 <script>
-// import BlogPost from "@/components/BlogPost.vue"
 import ReviewsNav from "@/components/ReviewsNav.vue"
 import BlogMain from "@/components/BlogMain.vue"
 import blogData from "@/json/blog.json"

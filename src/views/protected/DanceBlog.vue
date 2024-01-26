@@ -10,7 +10,6 @@
 </style>
 
 <script>
-// import BlogPost from "@/components/BlogPost.vue"
 import BlogNav from "@/components/BlogNav.vue"
 import BlogMain from "@/components/BlogMain.vue"
 import blogData from "@/json/blog.json"
@@ -21,7 +20,6 @@ export default {
     }
   },
   components: {
-    // BlogPost,
     BlogNav,
     BlogMain
   }

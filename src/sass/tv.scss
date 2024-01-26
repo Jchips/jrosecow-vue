@@ -2,8 +2,8 @@
   opacity: 1;
   padding: 20px 0;
   padding-top: 40px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: rgb(0,0,0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -19,12 +19,13 @@ aside {
   padding: 5px;
   border-radius: 100px;
   margin-top: 5px;
+
   // margin-top: 45px;
-   a {
-    // color: 
+  a {
+    // color:
     font-weight: 700;
     text-decoration: none;
-   }
+  }
 }
 
 main {
@@ -147,6 +148,7 @@ li {
   overflow: hidden;
   z-index: 1;
   text-decoration: none;
+
   &:after {
     content: '';
     position: absolute;
@@ -154,10 +156,11 @@ li {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(33,37,41);
+    background-color: rgb(33, 37, 41);
     border-radius: 10rem;
     z-index: -2;
   }
+
   &:before {
     content: '';
     position: absolute;
@@ -165,13 +168,15 @@ li {
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: darken(rgb(33,37,41), 15%);
+    background-color: darken(rgb(33, 37, 41), 15%);
     transition: all .3s;
     border-radius: 10rem;
     z-index: -1;
   }
+
   &:hover {
     color: #fff;
+
     &:before {
       width: 100%;
     }
@@ -184,9 +189,9 @@ li {
   background-position: 0 41%;
 }
 
-// #all-american {
-//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/all-american.jpg");
-// }
+#all-american {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/all-american.jpeg");
+}
 
 // #a-g-t {
 //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/agt.jpg");
@@ -202,6 +207,11 @@ li {
 //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/batwoman.png");
 //   background-position: 0 15%;
 // }
+
+#black-lightning {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/black-lightning.jpeg");
+  background-position: 0 30%;
+}
 
 // #the-bold-type {
 //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/the-bold-type.jpg");
@@ -256,14 +266,19 @@ li {
 //   background-position: 0 20%;
 // }
 
+#ginny-and-georgia {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQSMHv2RuJpdom1Nd7VY7DO2MPFJIGjC3GQVfnSdXAYJSdoh0lteTbdd5XUIGKJDum7ad5VoKWqd-if3TfIX2V7f5890zh902K-iOURCffVJkeO5KEUD4HWYwSd6ufsrwmOhDQ4wJHW9Zqc__PQK__fcn7ag.jpg?r=fb9");
+  background-position: 0 35%;
+}
+
 // #good-luck-charlie {
 //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/good-luck-charlie.jpg");
 //   background-position: 0 20%;
 // }
 
-// #grown-ish {
-//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("shows/grown-ish.jpg");
-// }
+#grown-ish {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/grown-ish.jpg");
+}
 
 #the-hardy-boys {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/assets/show-heroes/the-hardy-boys.jpg");

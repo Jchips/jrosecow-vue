@@ -1,4 +1,5 @@
 // Background image from: https://unsplash.com/photos/OOE4xAnBhKo
+@import 'settings.responsive';
 
 /* hero image */
 .hero-image {
@@ -42,6 +43,10 @@ main {
 section {
   display: flex;
   justify-content: space-around;
+
+  @include media-query(mobile) {
+    flex-direction: column;
+  }
 }
 
 section>* {
