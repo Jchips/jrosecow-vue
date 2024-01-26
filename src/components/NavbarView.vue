@@ -19,7 +19,8 @@
             <router-link class="nav-link" to="/about">About</router-link>
           </li>
           <li class="nav-item dropdown">
-            <a id="blog-nav" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a id="blog-nav" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Blog
             </a>
             <ul class="dropdown-menu">
@@ -31,9 +32,6 @@
           </li>
           <li class="nav-item">
             <router-link to="/explore" class="nav-link">Explore</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="#" class="nav-link disabled">My Cart</router-link>
           </li>
         </ul>
         <form class="d-flex" role="search">

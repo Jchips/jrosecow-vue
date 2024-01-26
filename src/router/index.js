@@ -153,7 +153,7 @@ function checkAuthentication() {
     axios.defaults.headers.common['authorization'] = `Bearer ${token}`;
 
     // Make a request to a protected route to check if the token is valid
-    return axios.get(`${process.env.VUE_APP_SERVER}/protected/`)
+    return axios.get(`${process.env.VUE_APP_SERVER}/protected`)
       .then((response) => {
         console.log('router response', response.data.message);
         return true; // Authentication is successful

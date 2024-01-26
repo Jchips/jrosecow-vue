@@ -4,65 +4,148 @@
     "sort": "A",
     "title": "Alex Rider",
     "seasons": "2 seasons (2020-present)",
-    "availability": ["prime"],
-    "genres": "Action, Drama", 
+    "availability": [
+      "prime"
+    ],
+    "genres": "Action, Drama",
     "lgbtq": false,
     "img_creds": "Rotten Tomatoes",
     "img_link": "https://flxt.tmsimg.com/assets/p18378677_b_h10_ad.jpg",
     "description": "is a British action and drama show about a 14yr old spy who works as an agent (sort of) for a spy company called MI6. The show is based on a long book series that I read in my middle school years, that had me playing spies in the basement with my neighbor. Anyway, Alex used to live with his uncle, Ian Rider, but then Ian gets murdered, and that’s how Alex finds out about his spy destiny that his uncle has been training him for all his life. If the TV series continues to be anything like the books, Alex’s spy life is pretty brutal. His adventures were rough and every time he was like “I won’t work for MI6 again,” but then still would in the next book. The show is very similar to the book from what I’ve found so far, although I can’t remember the books that well…. The series starts with the second book though. Ian is murdered in the first book, but then the rest of the first season is the second book, Point Blanc. The second season is based on Eagle Strike.",
-    "my_thoughts": ["The series isn’t that bad. I totally had forgotten that the series was British. Alex has a best friend named Tom Harris in the TV series that I can’t remember if he is in the books or not, but he is kinda annoying in the show. Moreover, I think Alex should be like 16 or at least 15 because 14 is just too young, and he looks about 16. The seasons are only 8 episodes which, in my opinion, is not enough, but to be fair, they do sum up the stories pretty well. The first season just felt a bit rushed. Even 9 might have been better. Also, in my opinion, the second season was much better than the first season (though the first wasn’t bad)."],
-    "toggle_my_thoughts": false,
+    "my_thoughts": [
+      "The series isn’t that bad. I totally had forgotten that the series was British. Alex has a best friend named Tom Harris in the TV series that I can’t remember if he is in the books or not, but he is kinda annoying in the show. Moreover, I think Alex should be like 16 or at least 15 because 14 is just too young, and he looks about 16. The seasons are only 8 episodes which, in my opinion, is not enough, but to be fair, they do sum up the stories pretty well. The first season just felt a bit rushed. Even 9 might have been better. Also, in my opinion, the second season was much better than the first season (though the first wasn’t bad)."
+    ],
     "rating_img": "./assets/ratings/4-stars.png",
-    "thoughts_with_spoilers": ["I like how the second season was all Alex without help from MI6 and he was the one who was right about what was going on. It really showed Alex’s talent and heroism. I also like how Kyra was included in the second season again. I do feel like the show was edging Tom and Kyra to be together though, and I don’t ship that for a second. Oh, and I think Sabina owes Alex an apology. She is a butthole."],
-    "toggle_thoughts_with_spoilers": false,
+    "thoughts_with_spoilers": [
+      "I like how the second season was all Alex without help from MI6 and he was the one who was right about what was going on. It really showed Alex’s talent and heroism. I also like how Kyra was included in the second season again. I do feel like the show was edging Tom and Kyra to be together though, and I don’t ship that for a second. Oh, and I think Sabina owes Alex an apology. She is a butthole."
+    ],
     "tv_sins": [
       "They said Point Blanc was miles away from the nearest city and one would be dead within the hour if they tried to escape, and then Alex just snow boards down a hill, finds a road, and then is safe?",
       "How strong is Alex supposed to be so that he can just break apart a folding table and then bend it like it’s nothing??",
       "How tf did the Alex clone get out of Point Blanc? The real Alex “snow boarded,” but we just see the clone walk out and then end up at the road even though he should be dead from hypothermia within an hour if the show follows it’s own rules. They just escaped the school like it was nothing.",
       "And while we’re talking about the clone, how did it know where Alex goes to school? The only information the clone should have is on Alex Friend, right? Not Alex Rider. It should not know where Alex Rider lives and goes to school."
+    ]
+  },
+  {
+    "id": "all-american",
+    "title": "All American",
+    "seasons": "5 seasons (2018-present)",
+    "availability": [
+      "cw",
+      "netflix"
     ],
-    "toggle_tv_sins": false
+    "genres": "Drama, Sports",
+    "lgbtq": true,
+    "img_creds": "The CW",
+    "img_link": "https://images.cwtv.com/images/masters/cw/universal/shows/all-american/show-promo.jpg",
+    "description": "All American is a drama show about Spencer James, a high school teen from the hood. He moves out to a school in Berkeley where he can pursue his passion of football on a better team in a safer neighborhood. Spencer goes back home to his mom, little brother and best friend, Coop, every week, but also now has this new life in Berkeley living with his football coach’s family. He is inspired the most by his dad, who left him when he was young and broke his heart.",
+    "my_thoughts": [
+      "I like that this show is mainly African American which isn’t most shows, although, I’m not really a fan of several of the characters, especially Coop. My favorite character has to be Spencer. He’s just very genuine, honest, accepting and has a great heart. And I’m all for the Spencer and Olivia ship. I don’t really remember how I came across this show, but I remember when I did, I binged all 3 first episodes like crazy in the same night. I believe I saw it on Bre-Z’s (Coop) Instagram and then watched the trailer on YouTube and it looked interesting, so I pursued it. It’s not really my type of drama show though."
+    ],
+    "rating_img": "./assets/ratings/2-stars.png"
+  },
+  {
+    "id": "black-lightning",
+    "sort": "B",
+    "title": "Black Lightning",
+    "seasons": "4 seasons (2018-2021)",
+    "availability": [
+      "cw",
+      "netflix"
+    ],
+    "genres": "Action, Drama",
+    "lgbtq": true,
+    "img_creds": "Netflix",
+    "img_link": "https://occ-0-784-987.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRXOravwNKt4DQlIm603PFrVrUSsI7x62l5IIAfK5R-Fk0SyWU8XwGNuupcfKWG-me7GlJ9jZ4vClV-LTAgKdTJiUWcfUzySeSIt.jpg?r=46d",
+    "description": "Black Lightning is a DC show about a formerly retired superhero, Jefferson Pierce, who calls himself ‘Black Lightning.’ He used to do his best to protect the people of their primarily Black city, Freeland, Georgia, and fight against injustice, until his ex-wife Lynn Stewart had enough of being married to a superhero and what it was doing to the family. Jeff’s day job is a principal at Garfield High School which he adores and prides himself for keeping the kids there off the streets and focused on their education. Meanwhile, a new drug called Green Light that gives people superhuman abilities has found it’s way to Freeland by some criminal gang called the 100 led by a bad guy named Tobias Whale. Jeff puts the suit back on to fight to keep Green Light out of the hands of his students and stop Tobias alongside his daughter, Anissa, who finds out she was born with powers and calls herself ‘Thunder.’",
+    "my_thoughts": [
+      "It’s a pretty cliche superhero show. I just found it on Netflix and thought I’d give it a try. It can get boring because the story feels kind of slow, and it can also be hard to take seriously with all the cliches. When the show started the first season, it didn’t really explain who anyone is in any way or give any backstory, it just jumped right into the action, which made things pretty confusing for me. I didn’t know who anyone was and why the bad guys were bad guys. You get some explanation about everybody throughout the season, but it made it hard to connect to any character. I also am confused about how Jefferson’s powers work. It looks like he kills everybody in his path…does the lightning not work that way?"
+    ],
+    "rating_img": "./assets/ratings/2-stars.png"
   },
   {
     "id": "community",
     "sort": "C",
     "title": "Community",
     "seasons": "6 seasons (2009-2015)",
-    "availability": ["nbc", "netflix", "hulu"],
-    "genres": "Sitcom", 
+    "availability": [
+      "nbc",
+      "netflix",
+      "hulu"
+    ],
+    "genres": "Sitcom",
     "lgbtq": false,
     "img_creds": "The Independent",
     "img_link": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/03/31/11/782f3606-1ca0-4f9e-9024-57a27b636ae5.jpg",
     "description": "is a sitcom. Jeff Winger is forced to go back to school because it was found out that his lawyer degree was fake, so he attends Greendale Community college. There, he ends up forming a study group for his Spanish class which is comprised of the seven other main characters, Britta, Abed, Troy, Annie, Shirley and Pierce. Each of them are very different. Jeff is the leader of the group and can be very manipulative and not always the friendliest. Britta is reserved and passionate about woman empowerment. Abed loves film and wants to be a movie writer and director. Troy was a high school football star who suffered from an injury and thus can no longer play. Him and Abed become besties. He’s socially awkward and makes a lot of movie references. Annie never was popular in high school so strives to be popular now. Shirley is very religious (Christian) and is a mom with two kids. Pierce is a rich old white man who can be pretty racist and homophobic. While Jeff’s initial motivation to form the study group was just to have s*x with Britta, he ends up making real connections and friendships with these people.",
-    "toggle_my_thoughts": false,
-    "my_thoughts": ["I can't remember how I came upon it, but I tried it and it wasn't horrible. I recently just finished season 1 and am on season two, so I’m still in the early seasons, but it’s entertaining. I like Jeff’s character and the show can be funny at times, especially the school dean who is hilarious. I won’t lie, I do find both Abed and Pierce particularly annoying though so sometimes it can be hard to watch the show because of that. But the show reminds you everyone is very unique and you don’t have to be exactly like another person to be friends with them. I like how the community they formed is unique and diverse."],
+    "my_thoughts": [
+      "I can't remember how I came upon it, but I tried it and it wasn't horrible. I recently just finished season 1 and am on season two, so I’m still in the early seasons, but it’s entertaining. I like Jeff’s character and the show can be funny at times, especially the school dean who is hilarious. I won’t lie, I do find both Abed and Pierce particularly annoying though so sometimes it can be hard to watch the show because of that. But the show reminds you everyone is very unique and you don’t have to be exactly like another person to be friends with them. I like how the community they formed is unique and diverse."
+    ],
     "rating_img": "./assets/ratings/3-stars.png"
+  },
+  {
+    "id": "ginny-and-georgia",
+    "sort": "G",
+    "title": "Ginny & Georgia",
+    "seasons": "2 seasons (2021-present)",
+    "availability": [
+      "netflix"
+    ],
+    "genres": "Drama",
+    "lgbtq": true,
+    "img_creds": "Netflix",
+    "img_link": "https://www.netflix.com/tudum/ginny-and-georgia",
+    "description": "is a Netflix drama. It’s about a mom and daughter who are very different and might not have the best relationship, but have gone through challenge after challenge with each other. Georgia Miller struggled endlessly as a kid and ran away from home when she was 14, tired of being sexually abused by her step-dad. She had no money and had to fend for herself and that was hard, especially after she got pregnant with Ginny when she was 15. Georgia got by with supporting herself, Ginny, and also later her son, by stealing, lying, committing fraud, moving a lot, running an illegal Poker ring, and much more. She would do ANYTHING for her family. Ginny does not always agree with Georgia’s methods, but she’s learned to accept some of them even though Georgia doesn’t seem to understand that her actions effect Ginny too. At least Ginny accepted them when see thought Georgia was done with her worst habit… 👀",
+    "my_thoughts": [
+      "It’s ok. I found it on Netflix one day and thought I’d try it. The first episode didn’t really interest me so I didn’t think I’d watch anymore, but I was feeling really depressed a couple weeks later and wanted to watch something new so I decided to watch another episode. After that I was pretty hooked. Even if I felt like it would be my last episode for the night, something would happen near the end of the episode that made me want to watch the next one, so I would. I binged the rest of the first season in that day, and binged the whole 2nd season the next day. Even if I was disappointed with some of the show’s writing, there’s no doubt the show was entertaining. There’s also no doubt the show is depressing. This is important…📢 when you’re feeling really depressed, don’t watch this show! My favorite character was Marcus. I relate to him a lot and he’s just a good person. Then, I like Georgia. I mean there’s many things I don’t like about her, but I like how tough she is. I saw the scenes of her cracking her ‘everything is okay’ mask for small moments like her crying in the car, and it made me feel for her when I understood that she must feel pretty alone and anxious. Those feelings are very familiar to me. I might not like what Georgia does, but I understand her. It makes me sad though. Georgia is funny so I like that about her too. Ginny is kind of the worst to me. I also don’t really like Abby’s character, but I do see how much she is hurting and her friends never notice or listen. Abby is super insecure and alone, and so I feel that I relate to her also. Anyway, the story isn’t bad to me, it’s just that I find Ginny’s character so annoying, so it’s not my favorite. And it’s a depressing show."
+    ],
+    "rating_img": "./assets/ratings/2.5-stars.png"
+  },
+  {
+    "id": "grown-ish",
+    "title": "Grown-ish",
+    "seasons": "6 seasons (2018-present)",
+    "availability": [
+      "freeform",
+      "hulu"
+    ],
+    "genres": "Sitcom",
+    "lgbtq": false,
+    "img_creds": "Freeform",
+    "img_link": "https://www.comingsoon.net/tv/news/1036227-grown-ish-gets-a-third-season",
+    "description": "is a sitcom, although it’s not very comedic. It can be kind of interesting though. It’s a spin-off of the show Black-ish and is about Zoey Johnson, the daughter in Black-ish, navigating her way through college with a new group of friends. The episodes follow the same kind of pattern that Black-ish does with having one main issue each episode and then spending most of the episode discussing that issue and hearing all the main characters points of view on it and then Zoey deciding what’s best for her in the end.",
+    "my_thoughts": [
+      "It was never my favorite. It can get boring and it focuses a lot on relationships. I eventually just stopped watching because it never really reeled me in. My favorite character was Zoey because she seemed the most reasonable, caring, and loyal. I also liked Halle Bailey’s character (I don’t remember the character’s name), but she was one of the twins and she always seemed pretty cool. I probably won’t ever go back to this show honestly. It just wasn’t my cup of tea."
+    ],
+    "rating_img": "./assets/ratings/2-stars.png",
+    "fav_episodes": [
+      "S1E11 Safe and Sound ⭐"
+    ]
   },
   {
     "id": "the-hardy-boys",
     "sort": "H",
     "title": "The Hardy Boys",
     "seasons": "3 seasons (2020-2023)",
-    "availability": ["hulu"],
-    "genres": "Mystery, Drama", 
+    "availability": [
+      "hulu"
+    ],
+    "genres": "Mystery, Drama",
     "lgbtq": true,
     "img_creds": "Rotten Tomatoes",
     "img_link": "https://www.imdb.com/title/tt11252090/",
     "description": "is based on an old book series (that I’ve never read) about 2 brothers, Frank and Joe Hardy, who solve detective cases that the adults in their life aren’t able to solve. In this Hulu show, Francis (Frank) is 16 and Joe is 12. Their mom is killed in a car crash in the first episode, but the family soon begins to realize their mom may have actually been murdered. Their dad, Fenton Hardy, is a detective and goes off looking for someone who might be able to help him figure out what happened, but Frank and Joe can’t just sit around, so they take it upon themselves to find out as much as they can. After Fenton leaves on his search, he sends the boys off to stay in Bridgeport, a small country town where he and Laura Hardy, the mom, grew up. The Hardy boy’s grandmother seems to practically own the town and is known in Bridgeport for her family's wealth. In Bridgeport, Frank and Joe make several new friends, Chet, Callie, Phillip & Biff, who help them solve the mystery of their mom’s murder, and more.",
-    "toggle_my_thoughts": false,
     "my_thoughts": [
-      "I binged all the seasons pretty fast, maybe like 3 days. I read the description of it on Hulu at one point and thought it seemed interesting so I saved it in My Stuff and then randomly watched the first episode one day. It started off kinda slow, but after the first episode, I wanted to see what happens next so I watched the next one and that’s the one that kept me hooked. The show is a bit creepy in some parts, but not too much. The second season is definitely more creepy than the first. The third season, unfortunately, falls off in my opinion. Season 3 is very action filled, but doesn’t leave time for anything else and ends up minimizing characters who used to be important. The script writers aren’t all that good and there’s a lot of minor plot holes, but if you don’t pay attention too much, it’s a very decent mystery. The first season is definitely the best. My favorite character is probably Joe, although, he was annoying to me in the first season. In the second, he’s very entertaining and smart though. Callie is also cool because she’s super smart.",  
+      "I binged all the seasons pretty fast, maybe like 3 days. I read the description of it on Hulu at one point and thought it seemed interesting so I saved it in My Stuff and then randomly watched the first episode one day. It started off kinda slow, but after the first episode, I wanted to see what happens next so I watched the next one and that’s the one that kept me hooked. The show is a bit creepy in some parts, but not too much. The second season is definitely more creepy than the first. The third season, unfortunately, falls off in my opinion. Season 3 is very action filled, but doesn’t leave time for anything else and ends up minimizing characters who used to be important. The script writers aren’t all that good and there’s a lot of minor plot holes, but if you don’t pay attention too much, it’s a very decent mystery. The first season is definitely the best. My favorite character is probably Joe, although, he was annoying to me in the first season. In the second, he’s very entertaining and smart though. Callie is also cool because she’s super smart.",
       "I do think that Joe looked a little too old for his age in the second season though. I think only 6 months had gone by, but he looked more like 15-16 then 12. I suppose he could have turned 13 within the 6 months… but eh, he still looked older. I guess Alexander Elliot had a bit of a growth spurt between seasons. I’m also interested in knowing what year this show is supposed to take place in (I would probably know if I read the books…). There are no cellphones, but they have home phones with buttons and old TVs, so probably like the 80s…? I don’t know my time periods all that well. I didn’t see any computers though."
     ],
     "rating_img": "./assets/ratings/4-stars.png",
-    "toggle_thoughts_with_spoilers": false,
     "thoughts_with_spoilers": [
       "What really bummed me out though, was how we never got to see Trudy and Jesse’s relationship develop. After the first season, it’s what I was looking forward to seeing the most in the second, but then all of a sudden we start the second season and they are in a relationship. I definitely had the feeling they liked each other in the first season even though nothing significant really happened between them, and I was so excited to see both of them realize that and try to start something, and it just felt we got robbed of that. I think it would have made for great TV (because viewers love some romance).",
       "What also was disappointing was the recasts in season 2. I really liked the actress who played Jesse in the first season and it was so sad to me that she left. Same with Fenton. And I’m sorry, but his new actor… #NotMyFenton.",
       "Lastly, I found the third season to be pretty disappointing, mainly because they f*cked Biff over. She was one of the main characters in the first season and then she slowly got dropped more and more throughout the second and third season till she barely had a role. Callie got upgraded and so did Chet, but Biff got dropped to Phil’s level and she deserved way more than that. She was Joe’s best friend in the first season and, as Jesse called them, were ‘inseparable’. Then she randomly becomes best friends with Phil in the later seasons and is hardly in the detective work. WHY?? Plus, they kept hinting throughout the second season that Biff liked Joe, so I was expecting them to become a power couple kind of like Frank and Callie. That way Biff would have a significant role and Joe would be more of a character instead of constantly being in 200% detective mode 24/7 with no other personality. It was just really upsetting and pretty much ruined the third season so me.",
       "I’m wondering if the show is planning to be picked up on a different network or something though because they left the show on a bit of a cliffhanger even though they knew it was the shows last season. So, I guess we’ll see."
     ],
-    "toggle_tv_sins": false,
     "tv_sins": [
       "Callie said that Laura and Gloria’s argument the day Laura was murdered ended with something like “this all has to stop!” and then she stormed out, but in Frank’s revelation at the end the season, Laura’s last words of the argument was something like “you can’t or won’t?” before she stormed out.",
       "How did the tall man survive getting electrocuted by the whole fair’s electricity but then died when a car hit him? And why was he still alive after the fair’s incident?",
@@ -73,13 +156,15 @@
     "id": "h-i-m-y-m",
     "title": "How I Met Your Mother",
     "seasons": "9 seasons (2005-2014)",
-    "availability": ["cbs", "hulu"],
-    "genres": "Sitcom", 
+    "availability": [
+      "cbs",
+      "hulu"
+    ],
+    "genres": "Sitcom",
     "lgbtq": false,
     "img_creds": "The Guardian",
     "img_link": "https://www.theguardian.com/culture/tvandradioblog/2009/sep/08/how-i-met-your-mother-e4",
     "description": "is a sitcom based in NYC about a guy named Ted Mosby telling his kids the story of how he met their mother. The whole show (9 seasons) is the story. It features Ted’s best friends, Marshall and Lily, who he met in college, Barney, who Ted met at MacLaren’s one night while at the urinal 🤷, and Robin, who is the latest addition. She is a TV host from Canada living in the states that Ted is crazy about, who becomes part of their friend group. Ted is a very hopeless romantic and passionate man who stays young as an adult. His love life has quite an adventure as he searches for the one.",
-    "toggle_my_thoughts": false,
     "my_thoughts": [
       "My brother introduced my parents to this show and after seeing them like it so much and hearing a bit of it myself, I decided to try it out. It is very funny.",
       "The downside is that all the characters do get annoying at some point. My favorite character is, by far, Ted. He is nice and funny, and deserved to have a lasting girlfriend who loved him way before he finally settled down. I did not like Robin much at all. I think Ted can do much better than her. Barney was the most annoying though and honestly, makes the show really hard to watch for me these days. I’m sorry, but I just don’t find selfishness funny and I cannot express how much I hate Barney’s character.",
@@ -88,13 +173,11 @@
       "I will say though, this show has multiple instances of subtle transphobia. I could deal with it, but some people may be validly bothered because of that. It is disappointing of the show.",
       "Overall, I think this show is an enjoyable comedy."
     ],
-    "rating_img": "./assets/ratings/4-stars.png",
-    "toggle_thoughts_with_spoilers": false,
+    "rating_img": "./assets/ratings/3.5-stars.png",
     "thoughts_with_spoilers": [
       "The one thing me and many viewers I believe will never get over is how they killed Ted’s wife out in the end just to make him go back to Robin. From what I hear, there were a lot of things about the finale that pissed fans off, like some thought Barney & Robin should have stayed together, some thought Barney & Robin never should have married and others were mad that there was all this anticipation for a character who ended up being dead.",
       "It especially irked me, because I never liked Robin, and Ted was always way too cool for her. They also, as pointed out like mid-show, never had much in common with each other. Damn, I just want one show where the love interest is someone who I was rooting for instead of something stupid happening. It ain’t How I Met Your Mother, Teen Wolf, Hart of Dixie, Iron Fist, Batwoman…. The writers are always on some stupid sh*t, although I guess, in Iron Fist’s defense (⚠️ Iron Fist spoiler coming), if the show had not been cancelled, Danny & Colleen would probably have ended together."
     ],
-    "toggle_fav_episodes": false,
     "fav_episodes": [
       "S1E7 Matchmaker",
       "S2E3 Brunch ⭐",
@@ -112,8 +195,10 @@
     "sort": "M",
     "title": "Marvel Runaways",
     "seasons": "3 seasons (2017-2019)",
-    "availability": ["hulu"],
-    "genres": "Action, Drama", 
+    "availability": [
+      "hulu"
+    ],
+    "genres": "Action, Drama",
     "lgbtq": true,
     "img_creds": "The Hollywood Reporter",
     "img_link": "https://www.hollywoodreporter.com/tv/tv-news/runaways-marvels-hulu-series-explained-1058822/",
@@ -121,23 +206,25 @@
     "my_thoughts": [
       "The show started off pretty intriguing but then went downhill for me by the end of the 1st season and never picked back up. I was expecting more of a reveal at the end about what all was going on, but instead, everything just felt underwhelming, and it doesn’t help that half the characters in the show are just annoying/unbearable asf. I ended up not finishing season 2 and don’t think I ever will. The show just got to the point where it was so annoying to me and I felt like I was always yelling at the characters “bruh, why would you do that!?” and sh*t. It was tiring 😂. I also heard that the show ends on a cliffhanger bc the writers didn’t realize the show was gonna be canceled (which brings me back to my viewpoint that shows should ALWAYS wrap things up for each season by the season finale. Otherwise…wtf is the point of having seasons…??). I think I initially tried this show just because it was Marvel, and I like Marvel, but pbbbhhhhhtt. My favorite character was probably either Karolina (even tho she was annoying for secretly meeting with Jonah) and Nico’s dad. Nico's dad seemed to be the one with the most sense in the show, and I kinda felt bad for him when he had these very strong feelings for Chase’s mom that she didn’t end up reciprocating. But, for me, this show was just too annoying overall to enjoy. The first episode is definitely the best and really makes this show seem like it has promise, but then it all goes downhill from there."
     ],
-    "toggle_my_thoughts": false,
     "rating_img": "./assets/ratings/1.5-stars.png"
   },
   {
     "id": "modern-family",
     "title": "Modern Family",
     "seasons": "11 seasons (2009-2020)",
-    "availability": ["abc", "hulu"],
-    "genres": "Sitcom", 
+    "availability": [
+      "abc",
+      "hulu"
+    ],
+    "genres": "Sitcom",
     "lgbtq": true,
     "img_creds": "pxfuel",
     "img_link": "https://e0.pxfuel.com/wallpapers/404/157/desktop-wallpaper-modern-family-and-background.jpg",
     "description": "is a sitcom about three families, all related to each other. There’s Claire and Phil’s family, Jay and Gloria’s family and Mitch and Cam’s family. Mitchell and Claire are siblings and are Jay’s kids. The show is very entertaining and can be quite humorous sometimes. It’s not the funniest show out there, but definitely not the un-funniest either. It’s just all about the families and their silly relationship.",
-    "toggle_my_thoughts": false,
-    "my_thoughts": ["I don’t really know how I started watching this show. I think I just came across because it was kind of popular and then continued watching it. My favorite character is probably Phil because he’s just so nice. He’s goofy and playful and loves to tell jokes and make people smile and laugh. He is underrated in that family. He knows how to stay young. The earlier seasons are definitely better than the later seasons and as some characters grow up they start becoming more annoying than funny, but it’s a nice show to watch if you’re just bored."],
+    "my_thoughts": [
+      "I don’t really know how I started watching this show. I think I just came across because it was kind of popular and then continued watching it. My favorite character is probably Phil because he’s just so nice. He’s goofy and playful and loves to tell jokes and make people smile and laugh. He is underrated in that family. He knows how to stay young. The earlier seasons are definitely better than the later seasons and as some characters grow up they start becoming more annoying than funny, but it’s a nice show to watch if you’re just bored."
+    ],
     "rating_img": "./assets/ratings/5-stars.png",
-    "toggle_fav_episodes": false,
     "fav_episodes": [
       "S2E8 Manny, Get Your Gun",
       "S5E1 Suddenly, Last Summer",
@@ -152,16 +239,18 @@
     "sort": "O",
     "title": "The OA",
     "seasons": "2 seasons (2016-2019)",
-    "availability": ["netflix"],
-    "genres": "Mystery, Drama", 
+    "availability": [
+      "netflix"
+    ],
+    "genres": "Mystery, Drama",
     "lgbtq": true,
     "img_creds": "Netflix",
     "img_link": "https://occ-0-2794-448.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABe_d9Xc6WPmqMIeCuzNQiL1z-FhvbTQG192apXxDxyXQkYQ88KzfabipvpZ8btSrOsABncfyHJfPmVPk0kg7_qU6D_URbDvt8fco.jpg?r=d20",
     "description": "is a mystery/drama show about a Russian woman named Nina (also called Prairie) who was blind in childhood after a school bus accident, was adopted, went missing for 7 years when she was 19, then came back and was no longer blind. She makes a deal with a troubled high school kid in exchange for some help with a task. In order to get the help she needs for this task, she requests to the kid for five people. She must tell them her whole story so that they can help her. The story of how she became blind and then the story of how she got her sight again and what she’s trying to accomplish now. The story consists of her having a near-death-experience (NDE) and then meeting others who also had NDE’s who were all kidnapped by a scientist who was studying their NDE’s. The first season is all Prairie/Nina/The OA (the main character), telling her story to the five helpers. The first season of the show was released in 2016 and then the second season was released in 2019 before the show got canceled.",
-    "toggle_my_thoughts": false,
-    "my_thoughts": ["I got hooked on this show because I found out that Zendaya guest stars in three episodes of the second season (part II). I was originally only gonna watch the episodes she was in, but I messed up and thought I was watching part II, episode 1 while it turns out I was watching part I, episode 1. Since I had started from the beginning, I figured I should just go from there— eventually, I would get to Zendaya’s part and things would make sense rather than if I went to her scenes from the jump. I got very intrigued by the show and binged the two seasons in less than a week. I think part II turned out better than part I, but annoyingly, it ended on a cliff-hanger, and then the show got suddenly canceled 💀. I am a bit confused by season 2 though. Some parts never really seemed to add up. Maybe they would have been explained in season 3(?) My favorite character in the first season was maybe Homer, and OA in the second. I liked Homer in the first season because he was very brave and determined. He had more grit than I’ll ever have. I liked OA in the second season because, 1. I digged the long hair look, and 2. She seemed smarter and more mature. I will also say that season 2 was spookier (although I cannot say that’s a reason I liked it better)."],
+    "my_thoughts": [
+      "I got hooked on this show because I found out that Zendaya guest stars in three episodes of the second season (part II). I was originally only gonna watch the episodes she was in, but I messed up and thought I was watching part II, episode 1 while it turns out I was watching part I, episode 1. Since I had started from the beginning, I figured I should just go from there— eventually, I would get to Zendaya’s part and things would make sense rather than if I went to her scenes from the jump. I got very intrigued by the show and binged the two seasons in less than a week. I think part II turned out better than part I, but annoyingly, it ended on a cliff-hanger, and then the show got suddenly canceled 💀. I am a bit confused by season 2 though. Some parts never really seemed to add up. Maybe they would have been explained in season 3(?) My favorite character in the first season was maybe Homer, and OA in the second. I liked Homer in the first season because he was very brave and determined. He had more grit than I’ll ever have. I liked OA in the second season because, 1. I digged the long hair look, and 2. She seemed smarter and more mature. I will also say that season 2 was spookier (although I cannot say that’s a reason I liked it better)."
+    ],
     "rating_img": "./assets/ratings/5-stars.png",
-    "toggle_tv_sins": false,
     "tv_sins": [
       "I do not get why in season 1, OA told the 5 people that they needed to leave their doors open. How did/does that help?",
       "Why did Homer not remember his life in the other dimension and why did Prairie accepting Nina make Homer remember?",
@@ -174,34 +263,38 @@
     "id": "one-day-at-a-time",
     "title": "One Day at a Time",
     "seasons": "3 seasons (2017-2020)",
-    "availability": ["netflix"],
-    "genres": "Sitcom", 
+    "availability": [
+      "netflix"
+    ],
+    "genres": "Sitcom",
     "lgbtq": true,
     "img_creds": "Variety",
     "img_link": "https://variety.com/wp-content/uploads/2020/01/one-day-at-a-time-keyart-e1578968463996.jpg",
-    "description": "is a 3-season sitcom about a Cuban American family. The family, the Alvarez’s, live in an apartment together with 3 generations: Lydia the grandma, Penelope (Lupe/Lupita) the single mom, and Elena & Alex, the kids who are 15 & 13. Their white Canadian neighbor, Schneider, is practically part of the family too because he spends a lot of time at their place and looks after Alex sometimes. Penelope is a war veteran who had to split up with her husband, Victor, because after the war he had a lot of PTSD that he wasn’t willing to get help with. Hence, he became dangerous for the kids. Elena is very feminist and progressive. Alex is pretty chill, Lydia loves Cuba a lot, Lupe is a nurse but studying to be a nurse practitioner, and Schneider is just dumb and has girls over in his apartment a lot. The other frequent cast is Lupe’s work pals at the nurse's office.",
-    "toggle_my_thoughts": false,
+    "description": "is a 3-season sitcom about a Cuban American family. The family, the Alvarez’s, live in an apartment together with 3 generations: Lydia the grandma, Penelope (Lupe/Lupita) the single mom, and Elena & Alex, the kids who are 15 & 13. Their white Canadian neighbor, Schneider, is practically part of the family too because he spends a lot of time at their place and looks after Alex sometimes. Penelope is a war veteran who had to split up with her husband, Victor, because after the war he had a lot of PTSD that he wasn’t willing to get help with. Hence, he became dangerous for the kids. Elena is very feminist and progressive. Alex is pretty chill, Lydia loves Cuba a lot, Lupe is a nurse but studying to be a nurse practitioner, and Schneider is just an idiot and has girls over in his apartment a lot. The other frequent cast is Lupe’s work pals at the nurses’ office.",
     "my_thoughts": [
-      "I just kinda ran into this show on Netflix and decided to try it, and it’s pretty funny, ngl. Elena is probably my favorite character, although Lydia is no doubt the funniest. I like how Spanish gets mixed into the series a lot. I wish this show hadn’t gotten canceled."
+      "I just kind of ran into this show on Netflix and decided to try it, and it’s pretty funny, ngl. The first season is the funniest. The other two seasons sank a bit. Elena is probably my favorite character. I don’t like Lydia’s character that much, although, she is probably the funniest. I like how Spanish gets mixed into the series a lot. I wish this show hadn’t gotten canceled."
     ],
     "rating_img": "./assets/ratings/3.5-stars.png",
-    "toggle_fav_episodes": false,
     "fav_episodes": [
-      "S2E3 To Zir, With Love ⭐️"
+      "S2E3 To Zir, With Love"
     ]
   },
   {
     "id": "one-tree-hill",
     "title": "One Tree Hill",
     "seasons": "9 seasons (2003-2011)",
-    "availability": ["cw", "hulu"],
-    "genres": "Drama", 
+    "availability": [
+      "cw",
+      "hulu"
+    ],
+    "genres": "Drama",
     "lgbtq": true,
     "img_creds": "Bustle",
     "img_link": "https://imgix.bustle.com/rehost/2016/9/13/48f95a67-2449-41b7-bce5-1fa996215654.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg",
     "description": "is a classic for sure. It’s a drama show and a very dramatic one at that. It is about two teenage boys, Lucas and Nathan Scott who are literally brothers-from-another-mother, growing up in a small town called Tree Hill. Like their dad, Dan Scott, Lucas and Nathan are both basketball stars, but they are both very different. Nathan is quite popular in school and grew up with Dan, who is a d*ckhead. He plays on the Tree Hill Ravens team and Dan, who was forced to leave basketball after an injury, is always pressuring him to be better. Lucas grew up with his mom, though Dan’s older brother Keith was a father figure to him growing up. He plays basketball with his small friend group at a place called the river court (because it is by a river) until he is offered a spot on the Ravens team in the first episode. Dan and his wife Deb make good money and own two big houses which they raise Nathan in, although in contrast, Lucas and his mom, Karen, live in a small house and barely get by. Hence, Nathan has a spoiled-mean-boy kind of attitude while Lucas is a nice kid (but has intense imposter syndrome with whatever he does). Though, once Lucas becomes a popular Raven basketball player and Nathan starts getting tutored by Lucas’ best friend Haley, things start to mix up.",
-    "toggle_my_thoughts": false,
-    "my_thoughts": ["I came across this show once on Netflix when I saw that Jacob Latimore guest stars in it. Little did I know, it would not turn out to be until season 8 though (haha). But I used it as an excuse to try out a new show. After starting, I was hooked. I stopped for a month or two after the second season I think, but then continued again and never stopped until I finished. It’s a classic. The show is quite the drama, as the writers tried to keep making the show interesting. Basically, they kept making a lot of rare intense sh*t happen to the characters and just ended up jumping the shark, but the show has many good parts and can be entertaining. You see a lot of character development and get attached to different characters. My favorite characters are probably Clay, Quinn and Nathan. Clay is super funny but also nice, and for some reason, I find him kind of relatable. Maybe because he’s a reserved guy. Quinn is just super fun, nice, and funny and Nathan has a lot of character development that is fun to watch. I think Nathan (James Lafferty), was the best cast. I want to see him in more roles."],
+    "my_thoughts": [
+      "I came across this show once on Netflix when I saw that Jacob Latimore guest stars in it. Little did I know, it would not turn out to be until season 8 though (haha). But I used it as an excuse to try out a new show. After starting, I was hooked. I stopped for a month or two after the second season I think, but then continued again and never stopped until I finished. It’s a classic. The show is quite the drama, as the writers tried to keep making the show interesting. Basically, they kept making a lot of rare intense sh*t happen to the characters and just ended up jumping the shark, but the show has many good parts and can be entertaining. You see a lot of character development and get attached to different characters. My favorite characters are probably Clay, Quinn and Nathan. Clay is super funny but also nice, and for some reason, I find him kind of relatable. Maybe because he’s a reserved guy. Quinn is just super fun, nice, and funny and Nathan has a lot of character development that is fun to watch. I think Nathan (James Lafferty), was the best cast. I want to see him in more roles."
+    ],
     "rating_img": "./assets/ratings/4-stars.png"
   },
   {
@@ -209,16 +302,19 @@
     "sort": "P",
     "title": "Parks and Recreation",
     "seasons": "7 seasons (2009-2015)",
-    "availability": ["nbc", "peacock"],
-    "genres": "Mockumentary sitcom", 
+    "availability": [
+      "nbc",
+      "peacock"
+    ],
+    "genres": "Mockumentary sitcom",
     "lgbtq": false,
     "img_creds": "Newsweek",
     "img_link": "https://d.newsweek.com/en/full/1584345/parks-recreation-reunion.jpg",
     "description": "is a sitcom. It’s all about the Pawnee, Indiana Parks Department, featuring several main characters who all work either at the department or have some kind of relationship to someone who does. The characters all have different personalities and complexions. For example, Leslie Knope is very passionate and cheerful. She works very hard to achieve her goals and loves the city she grew up in, Pawnee. Indiana. Ron Swanson is a libertarian and hates government. He hates doing work and loves to be alone, carve things out of wood, eat meat and go hunting. He’s very “manly” and handy. Chris Traeger is very positive and is passionate about physical and mental health.",
-    "toggle_my_thoughts": false,
-    "my_thoughts": ["Parks and Rec is the funniest show I’ve ever watched. The writers and directors really know how to make people laugh. This is my go-to show whenever I want to crack a smile. One of my brothers introduced me to this show by showing me a few episodes and then I took initiative on my own to catch up. The funniest seasons are season 3 and 4, but honestly, everything before season 6 is very funny. It starts going downhill after that and I’ll admit I haven’t finished the show yet, but I keep re-watching episodes from the first 5 seasons. My favorite character is probably Andy. He’s very funny and even though his life turns to shit early on in the series, he always just laughed it off and found a way to make things positive. He’s not ashamed by much and is very loyal and kind. Although, ngl, it does bug me that while Andy isn’t the most responsible or hard-working, everything always just easily falls into place for him without him barely having to do anything. He tries his best to make people happy and is just a good guy. My second favorite character is probably either Leslie because she’s super funny or Chris because I also find him very humorous and I like his attitude."],
+    "my_thoughts": [
+      "Parks and Rec is the funniest show I’ve ever watched. The writers and directors really know how to make people laugh. This is my go-to show whenever I want to crack a smile. One of my brothers introduced me to this show by showing me a few episodes and then I took initiative on my own to catch up. The funniest seasons are season 3 and 4, but honestly, everything before season 6 is very funny. It starts going downhill after that and I’ll admit I haven’t finished the show yet, but I keep re-watching episodes from the first 5 seasons. My favorite character is probably Andy. He’s very funny and even though his life turns to shit early on in the series, he always just laughed it off and found a way to make things positive. He’s not ashamed by much and is very loyal and kind. Although, ngl, it does bug me that while Andy isn’t the most responsible or hard-working, everything always just easily falls into place for him without him barely having to do anything. He tries his best to make people happy and is just a good guy. My second favorite character is probably either Leslie because she’s super funny or Chris because I also find him very humorous and I like his attitude."
+    ],
     "rating_img": "./assets/ratings/4.5-stars.png",
-    "toggle_fav_episodes": false,
     "fav_episodes": [
       "S2E19 Park Safety",
       "S2E21 94 Meetings ⭐",
@@ -231,21 +327,23 @@
     "id": "psych",
     "title": "Psych",
     "seasons": "8 seasons (2006-2014)",
-    "availability": ["usa", "peacock", "prime"],
-    "genres": "Comedy", 
+    "availability": [
+      "usa",
+      "peacock",
+      "prime"
+    ],
+    "genres": "Comedy",
     "lgbtq": false,
     "img_creds": "Amazon.com",
     "img_link": "https://m.media-amazon.com/images/I/71NIG1KhKiL._RI_.jpg",
     "description": "is a comedy. It’s about a man named Shawn Spencer who has a photographic memory and uses this to pretend he’s a psychic. It begins with his incredible skills leading him to give the Santa Barbara police (SBPD) a tip about a suspect which puts him in hot water because they conclude that the only way he could have gotten the information is if he were involved in the crime as well. To cover for himself, he claims he is a psychic, so the chief of police— Chief Vic, asks him to help them with another case to prove he’s psychic, and if he can, then he won’t be charged. If not, he will be in trouble for not only being a suspect in a crime but also hindering a police investigation. So, Shawn and his best friend Gus, a pharmaceutical salesman who tags along with Shawn for everything, help the SBPD with the case. This drives Shawn to open Psych, a psychic detective agency that he and Gus own, and they end up helping the Santa Barbara police with many cases, often working alongside head detective Carlton Lassiter and his partner detective, Juliet O’Hara who Shawn quickly grows feelings for.",
-    "toggle_my_thoughts": false,
     "my_thoughts": [
-      "I started this show out kinda not really feeling it but wanting smth to watch as I did other things, but then started getting hooked at around maybe season 2. I felt like the show was kinda a side-show at first, like not a show you would watch mainly, but just every once in a while to kill time. It was funny to me, but not all that funny. Interesting, but not all that interesting…. But it got funnier, and I started watching it more and more frequently until I was binging it. It’s now probably one of my top shows.", 
+      "I started this show out kinda not really feeling it but wanting smth to watch as I did other things, but then started getting hooked at around maybe season 2. I felt like the show was kinda a side-show at first, like not a show you would watch mainly, but just every once in a while to kill time. It was funny to me, but not all that funny. Interesting, but not all that interesting…. But it got funnier, and I started watching it more and more frequently until I was binging it. It’s now probably one of my top shows.",
       "Shawn is incredibly hilarious and tbh I’m surprised he never tried being a comedian since he apparently went through a lot of jobs before sticking with this psychic detective one. I honestly don’t really like Gus though; I find him seldom funny and kinda annoying. I don’t like how he talks— he always sounds like he’s scolding someone or trying to give an informative speech. I don’t really get why he’s friends with Shawn either… I feel like, especially in the 1st season, the show doesn’t do a very good job of showing the chemistry between Shawn and Gus. It appears that Gus is just constantly annoyed by Shawn and it’s surprising he still associates with him. Shawn is my favorite character and then I also like Juliet just cus she’s cool, I guess.",
       "One thing I think that the show could have benefited from though is a bit more dynamic in the storylines. It felt like the show was always on 100 with the humor even at parts that were supposed to be heavier feeling. I get that Shawn uses humor as a coping mechanism, so that’s how he deals with his pain and struggles, but it would have just been nice to see Shawn be a bit more human every now and then. It gets kinda tiring watching him constantly joke around and I wanted to see what else Shawn and just James Roday Rodriguez could do. They put some intense scenes in there, but nothing that really stuck; they always jumped back into the comedy real quick. I just wish we got to see a more serious Shawn every now and then to give the show more dynamic and make me relate and wanna root for him more. I also really wish they did more with the Ying Yang storyline. That one was really intriguing (although the last one wasn’t as good), and I think they could have totally kept that going or added in another kind of ongoing storyline like that where Shawn was really tested with his skills.",
       "Anyways, this is a good show in my book. I think the first time I watched it actually was with an old friend yrs ago at her house; she introduced me to the first episode, and I wasn’t really feeling it then, and even now yrs later I wasn’t really feeling the first episode…, but it gets better. And side note: Wow, James Roday Rodriguez really changes in appearance throughout the show, like damn. Season 8 him looks like an older brother to the season 1 him haha."
     ],
     "rating_img": "./assets/ratings/4.5-stars.png",
-    "toggle_fav_episodes": false,
     "fav_episodes": [
       "S1E2 The Spellingg Bee ⭐",
       "S1E26 Weekend Warriors",
@@ -261,16 +359,18 @@
     "sort": "R",
     "title": "Rhythm & Flow",
     "seasons": "1 season (2019-present)",
-    "availability": ["netflix"],
-    "genres": "Reality rap competition", 
+    "availability": [
+      "netflix"
+    ],
+    "genres": "Reality rap competition",
     "lgbtq": false,
     "img_creds": "TV Guide",
     "img_link": "https://www.tvguide.com/a/img/catalog/provider/1/1/1-9504017860.jpg",
     "description": "is a reality rap competition. It is pre-filmed and the judges are successful rappers: T.I, Cardi B, and Chance the Rapper. Each of those three first start out by going to their hometown and running auditions where they select the contestants that they wanna put through to the next round. So, Cardi goes to New York, T.I. goes to Atlanta, and Chance goes to Chicago. They also go to LA. At their hometowns, they each chose a couple of other successful rappers (I think from the same hometown) to join them, so for example, Snoop Dogg joined T.I. for the Inglewood (LA) auditions. The next round has each contestant freestyle for a bit in rounds, then the next round is the rap battles. After the battles, they only have like 8 contestants left. Each contestant works with a music producer to record a track and then make a music video. After a double elimination, they all work with new producers to make another song and performance it live on stage. THEN, the remaining 5 rap alongside a successful artist. Finally, the top 4 perform one last time in the final episode before 1st – 4th place winners are announced. So, basically, there’s A LOT of rapping. I think all the 4 finalists were guaranteed to get picked up by some label by the end of the show even if they didn’t win, though the winning prize comes with $250,000 (and probably some stupid contract as well….). But this show is really respectable for highlighting the Black created music. Season 2 was supposed to air in 2021 but I assume the pandemic delayed it. There’s been no word on when season 2 will now come.",
-    "toggle_my_thoughts": false,
-    "my_thoughts": ["One of my brothers introduced me to this one too. One thing I love about the show is that the judges are all people of color and so are most of the contestants. Therefore, the show just doesn’t seem as “white” and usual shows are. Another thing I like is that the contestants can wear their regular casual/rapping attire and talk in Ebonics. I feel like if that happened on AGT or sum, the judges and audience would unconsciously judge the contestants with slight racism. This show just felt more chill somehow then the intensity/drama of some other reality shows. Cardi B was my favorite judge because she is just amusing. I like rap a lot, and this show made me respect it even more because I recognized how creative some rappers really are. Because of Kida the Great, I’m more of a bass and rhythm listener than I am to lyrics of songs, and lots of the music I listen to I get from Kida and the lyrics aren’t the most influencing. But when I paid attention to the lyrics these rappers on Rhythm & Flow had, it made me listen more to the lyrics in the rap music I already have on my phone, as well as downloading some of these new artist’s songs. Rappers are very special, influential, and creative."],
+    "my_thoughts": [
+      "One of my brothers introduced me to this one too. One thing I love about the show is that the judges are all people of color and so are most of the contestants. Therefore, the show just doesn’t seem as “white” and usual shows are. Another thing I like is that the contestants can wear their regular casual/rapping attire and talk in Ebonics. I feel like if that happened on AGT or sum, the judges and audience would unconsciously judge the contestants with slight racism. This show just felt more chill somehow then the intensity/drama of some other reality shows. Cardi B was my favorite judge because she is just amusing. I like rap a lot, and this show made me respect it even more because I recognized how creative some rappers really are. Because of Kida the Great, I’m more of a bass and rhythm listener than I am to lyrics of songs, and lots of the music I listen to I get from Kida and the lyrics aren’t the most influencing. But when I paid attention to the lyrics these rappers on Rhythm & Flow had, it made me listen more to the lyrics in the rap music I already have on my phone, as well as downloading some of these new artist’s songs. Rappers are very special, influential, and creative."
+    ],
     "rating_img": "./assets/ratings/4-stars.png",
-    "toggle_thoughts_with_spoilers": false,
     "thoughts_with_spoilers": [
       "I wish Flawless Real Talk had won. I think he was my favorite ever since the round before his battle even. But he killed his rap battle; it was HARRDDD. It was almost like the Kida vs Kidd Showout battle (where Flawless was Kida). He just went all-in after a nerve was touched. Although, his opponent wasn’t like Kidd though. She did well also (though she messed up once). One thing I noticed, is that Flawless did not mess up once throughout the whole competition. Neither he nor Troyman did. Troyman has awesome hair, btw. Like, I need his barber or sum. D Smoke was cool, but by the semi-finals I kinda felt like he was a bit overrated by the judges. I don’t think the contestants knew it at the time (probably not until they watched the series), but the judges were sucking D Smoke’s d*ck hard the whole time. It was obvious after a while that he was gonna win. But whatever, Flawless got 2nd place and that’s good. I felt really bad for Londynn B. though. She’s awesome and did so well but wanted it sooo bad. Like 3rd place is good, but she was in tears because she wanted that W.",
       "What pissed me off a lot was Big Mouf Bo winning over Rae Khalil. I think all viewers were disappointed about that. Bo had a bad attitude and was just rude and opinionated and she was all up in Rae’s face like that, like wth… Idk what the judges were thinking. I don’t even think they were even."
@@ -280,14 +380,17 @@
     "id": "rise",
     "title": "Rise",
     "seasons": "1 season (2018)",
-    "availability": ["nbc"],
-    "genres": "Drama", 
+    "availability": [
+      "nbc"
+    ],
+    "genres": "Drama",
     "lgbtq": true,
     "img_creds": "Amazon.com",
     "img_link": "https://www.amazon.com/Rise-Season-1/dp/B07B725BSZ, https://m.media-amazon.com/images/I/A14AZxonamL._RI_.jpg",
     "description": "was a one season drama about a high school teacher, Lou Mazzuchelli, who felt like he could be doing more, so he got permission from the principal to run the school musical for the year. He worked alongside the school musical director, Tracey, and choose Spring Awakening as that year’s show. He got the school quarterback to play the lead role, along with a few other talented kids including, Lilette: a poor teen who lives with her single mom, Simon: a gay kid whose family is very Christian, a trans student, a kid whose parents divorced and broke her heart, a pregnant kid, and so on. Yes, I know what it sounds like: A Glee carbon-copy, but trust me, this was the good and more realistic version of Glee. Glee felt little kid-ish and got more and more unrealistic as time went on, but this one stayed mature and felt very real all the time. Mr. Mazzu was very passionate and really wanted to help these kids but got a lot of threats and disapproval from parents and school board members for doing such a mature musical containing controversial topics. The sad thing is, it’s the exact reason the show got canceled. Basically, the people who were trying to shut down the production in the show came to real life and tried to shut it down there too and apparently were successful on both ends.",
-    "toggle_my_thoughts": false,
-    "my_thoughts": ["I really liked the show and am sad that it will no longer air. After my memory loss, I don’t remember almost anything about the show, but I know I enjoyed it so much that I don’t wanna rewatch it just to be heartbroken that there’s only one season again :(. I think I originally came across it from seeing it advertised on Miles Brown Instagram account (either that or it was Sheaden Gabriel, I can’t remember) and it looked interesting, so I tried it that evening. It was very entertaining and inspiring. I hope some network will pick it up someday and continue where it left off. It also featured several upcoming actors/actresses who deserved their spot on television. I hope they get it back. My favorite character was Gordy, Mr. Mazzu’s son. He was very relatable to me. He felt left out and not good enough and just needed more people to show they cared about him. He was depressed, so he did reckless things, and I don’t blame him. I also liked Maashous. He was very nice and also felt somewhat relatable. I know it seems weird that my favorite characters are Gordy and Maashous because Gordy really hated Maashous, but I did like both (more so Gordy though). I really hope this show comes back."],
+    "my_thoughts": [
+      "I really liked the show and am sad that it will no longer air. After my memory loss, I don’t remember almost anything about the show, but I know I enjoyed it so much that I don’t wanna rewatch it just to be heartbroken that there’s only one season again :(. I think I originally came across it from seeing it advertised on Miles Brown Instagram account (either that or it was Sheaden Gabriel, I can’t remember) and it looked interesting, so I tried it that evening. It was very entertaining and inspiring. I hope some network will pick it up someday and continue where it left off. It also featured several upcoming actors/actresses who deserved their spot on television. I hope they get it back. My favorite character was Gordy, Mr. Mazzu’s son. He was very relatable to me. He felt left out and not good enough and just needed more people to show they cared about him. He was depressed, so he did reckless things, and I don’t blame him. I also liked Maashous. He was very nice and also felt somewhat relatable. I know it seems weird that my favorite characters are Gordy and Maashous because Gordy really hated Maashous, but I did like both (more so Gordy though). I really hope this show comes back."
+    ],
     "rating_img": "./assets/ratings/3-stars.png"
   },
   {
@@ -295,24 +398,24 @@
     "sort": "S",
     "title": "The Secrets of Sulphur Springs",
     "seasons": "3 seasons (2021-present)",
-    "availability": ["disney", "disney-plus"],
-    "genres": "Mystery, thriller, drama", 
+    "availability": [
+      "disney",
+      "disney-plus"
+    ],
+    "genres": "Mystery, thriller, drama",
     "lgbtq": false,
     "img_creds": "Rotten Tomatoes",
     "img_link": "https://www.rottentomatoes.com/tv/secrets_of_sulphur_springs/s02",
     "description": "is a mystery Disney show about a young boy and girl, Griffin and Harper, who discover a time portal in an old hotel called The Tremont and use it to travel back in time in attempt to save a young girl, Savannah. Savannah was reported missing years ago after staying at a summer camp at The Tremont Hotel and was never found. Griffin is 12 while I don’t think it’s clear how old Harper is (but probably the same age). He first met Harper at his new school in Sulphur Springs, the town his family just moved to from Chicago. His dad, Bennett Campbell, had gone to the summer camp at The Tremont when he was a boy and had so many memories there that he wanted to reopen it, hence why the family moved. But there’s this myth the town believes that the hotel is haunted by Savannah’s ghost. And while it’s not clear if it’s a ghost or not, something is making moving into The Tremont and fixing it up a prolonged hassle that has, especially the kids, more and more confident in the ghost stories every day. The show definitely feels pretty Disney in the first season but, in the second, it actually feels like a solid mystery show…. Then we get to the third and it’s very Disney again.",
-    "toggle_my_thoughts": false,
     "my_thoughts": [
       "I finally gave this show a try about a year after first reading about it back when I had just finished the Hardy Boys and was looking for similar shows. And like I said, the first season felt very Disney and so I took my time watching it, but the second season I binged just like that because the show really started getting interesting. The second season really just makes sh*t make sense. Like with a Disney show, one would expect a lot of plot holes and more focus on moving the plot forward than making a good story, but it feels like the second season does a good job of just really connecting things from season one and taking things further which make it feel more like a good mystery show than a show for middle schoolers and younger. Unfortunately, the third season felt like it kind of turned that around again so I’ve been taking my time watching it.",
       "One thing that’s a little disconcerting though, is that some of the cast youth look really young throughout the first season but then have physically grown up so much in the second. No time is supposed to have passed in the show and only one year passed in real life, but it’s life; kids grow, nothing wrong with that. I think there was a lengthy filming timeline for both seasons because of how you can see the kids grow up. I just had to Google the age of the main actor, Preston Oliver, because he looked like 12-13 in the first season and then like 15 by the end of the second. Apparently, right now in 2022, he’s 16 (although still is supposedly playing a 12yr old kid so good luck with that…), so, I guess he really had a growth spurt.",
       "And s/o to Kyliegh Curran (Harper), because imo she’s a really good actress. You can see that especially in season 2."
     ],
     "rating_img": "./assets/ratings/3-stars.png",
-    "toggle_thoughts_with_spoilers": false,
     "thoughts_with_spoilers": [
       "To touch on what I was saying earlier about the second season tying things from the first season together, it’s that it answered the question of who actually was haunting the Tremont (Grace Tremont) and why. It also answered the question of how someone doing something in the past by time travel will actively change the future— like how Harper, Griffin and Savannah were sending notes to each other through the floorboard during different periods of time. We saw one of the notes magically appear there after it was just written from an earlier time period. Though, I am surprised how no one has fixed that one floorboard in like nearly 100yrs."
     ],
-    "toggle_tv_sins": false,
     "tv_sins": [
       "This is a Disney (kids) show, so there are 1000+ sins in it that I don’t have time to get to them all 😅",
       "We’ll add 100 sins right off the bat just for all the issues in the show that could be solved just by the characters not talking vague and unrealistically. And then constantly playing the pronoun game.",
@@ -330,13 +433,15 @@
     "sort": "T",
     "title": "Teen Wolf",
     "seasons": "6 seasons (2011-2017)",
-    "availability": ["mtv", "prime"],
-    "genres": "Horror-drama", 
+    "availability": [
+      "mtv",
+      "prime"
+    ],
+    "genres": "Horror-drama",
     "lgbtq": true,
     "img_creds": "Teen Wolf Wiki",
     "img_link": "https://static.wikia.nocookie.net/teenwolf/images/c/c4/Teen_Wolf_Season_4_EDIT_Cast_Shot_Photo_Credit_Jaimie_Trueblood_and_MTV.png/revision/latest?cb=20140616224451",
     "description": "is a horror-drama show about werewolves & other supernatural creatures. The main character, a high school sophomore named Scott McCall, gets bitten by a werewolf and, you guessed it, becomes a werewolf himself. Scott is pretty awkward and not the best in school, but he has a huge heart and is known for always wanting to fix everything/save everyone. In season 1, all Scott wants is to maintain a normal teenage life where he does fun & mischievous things with his hyper + smart best friend, Stiles Stilinski, be captain of the high school Lacrosse team, and go out with his crush, Allison Argent whose dad is, unfortunately, a werewolf hunter. Alike, Batman, Scott’s greatest value is that he doesn’t kill anyone. As he says, “there’s always another way.” He & his friends work together to fix supernatural related problems throughout the show as Scott gets more and more used to being a werewolf. The show is LGBTQ supportive, but the main cast is not very diverse. There are 2 main people of color throughout the show (not counting Meagan Tandy/Braeden because she isn’t a very major character).",
-    "toggle_my_thoughts": false,
     "my_thoughts": [
       "I think the show is entertaining and a bit weird. The reason I got into this show is, again, because of Tandy. I saw she was in the show and decided I might as well try it because it’s free on Prime. Tandy isn’t in the show very much tbh. I kept thinking like “ok, now she’s a regular” every time she would appear in an episode, and each time, no. She’s just a recurring side character. Anyway, some of the acting is a bit unnatural and contrived feeling in the first season, but the actors get better over time. It’s kind of a mystery show, so it’s addicting; you always wanna know what happens next. It starts becoming less of well put together show at season 4 though. I thought the show might be lame because of the lame title, but the first time I watched it, I discovered it was a lot different than I expected it would be. After my memory loss though, I tried the show again and found it to be pretty lame overall. The best part of the show for me is for sure the second half of season three. The rest, I couldn’t even re-finish. The show is a bit funny, especially because Scott is so awkward, and it’s also a bit spooky/creepy. A little bit like Stranger Things. The show is not shy to show creepy monsters and blood n’ stuff.",
       "What’s unfortunate with the show, and I think one of the key reasons it had to cancel after 6-ish seasons, is that a lot of the characters end up leaving throughout the series. Like the actors/actresses just wanted move on to bigger things possibly or had other projects they were working on at the time that clashed with their Teen Wolf screen-time. If it was just 1-2 characters, it would be whatever, but there’s a lot, even major characters. That’s one of the reasons they keep introducing new characters all the time, I guess, but it gets sad because you get all used to some characters and then they just suddenly disappear. Sometimes a few of them made guest star appearances later, but still, it’s annoying. Also, there are like 6 major deaths of good characters throughout the series – so just a warning. There were only a few characters who were really committed to the whole show. I also think the show goes kinda overboard with all the different were-animals…like I don’t see why just werewolves aren’t enough, but ok.",
@@ -345,12 +450,10 @@
       "Lastly, s/o to the finale of this show, like I had to clap when it was over bc it was sooo good. Almost as good as the Avengers finale. The only thing that could have made this finale better would be if Isaac, Braeden & Kira came back. That’s how you fricken end a show, folks. Teen Wolf gets it. 👏👏 We won’t talk about the 2023 Teen Wolf movie though, in fact, we will forget it ever exists. 🗑️"
     ],
     "rating_img": "./assets/ratings/2.5-stars.png",
-    "toggle_thoughts_with_spoilers": false,
     "thoughts_with_spoilers": [
       "One problem I found with this show is that the writing gets a bit questionable starting at season 4. Like Meredith doing all the sh*t in season 4 didn’t make any sense at all and it felt like the writers were focusing more on the element of surprise for the viewers rather than practicality and continuity of the story. And then in season 5, Scott and Stiles’ fight was dumb because first, Scott would have more trust in Stiles, and second, Stiles conveniently never said to Scott what anyone in his situation would obviously say to defend themselves after accidentally killing the Chimera, which is “it was an accident!” Moreover, in season 6, Lydia realizing that she loves Stiles came out of nowhere. Ofc many obsessed viewers love Stiles/DOB, so they overlook the clear lack of feelings Lydia always had for Stiles and just go with it. Lydia literally never showed any romantic interest in Stiles before season 6. I guess since it was the last season, it was time to make Lydia all of sudden love Stiles so his dreams could come true. An unpopular opinion of mine is that Lydia definitely should have ended up with Scott. I know this would be unpopular because Scott is underrated among fans and Stiles is loved by like everyone, but I feel like Lydia always seemed closer to Scott and she even used to like him in the first season. Again, it felt so forced that all of sudden Lydia just liked Stiles in last season. It really made no sense and was clearly just for the teenage DOB fans rather than a practical storyline. Stiles and Malia were good together, especially with their matching ways of color coding. Imo, that’s the dumbest thing Teen Wolf did and was upsetting.",
       "The following characters leave if you want preparation: Jackson, Allison, Isaac, Aidan & Ethan, Mr. Harris, Ms. Morrell, Danny, Derek, Braeden, Kira, Dr. Deaton, Stiles). A few re-visit a few times later but are from then on only considered “guest stars” when they do. Erica, Allison, Aidan, Brett, Lori and Deucalian die."
     ],
-    "toggle_fav_episodes": false,
     "fav_episodes": [
       "S2S4 Abomination",
       "S3E5 Frayed",
@@ -358,7 +461,6 @@
       "S6E1 Memory Lost ⭐",
       "S6E20 The Wolves of War"
     ],
-    "toggle_tv_sins": false,
     "tv_sins": [
       "Why was Jackson effected by the alpha wolf after it scratched him? Like being scratched by a wolf does not put part of them in you or enhance your skills or anything, it’s just a wolf (unless it’s very deep, as we learned by Kate’s resurrection).",
       "It was never explained why Peter was able to resurrect himself using Lydia. Like he died, so how could he contact Lydia? I wish there was a thorough explanation on this because now I’m confused why no one else who died does this. If something as big as someone dead can come back to life, that would be some prevalently known and used tactic by supernaturals atp I assume.",
@@ -375,18 +477,21 @@
     "sort": "U",
     "title": "Utopia Falls",
     "seasons": "1 season (2020)",
-    "availability": ["hulu"],
-    "genres": "Drama", 
+    "availability": [
+      "hulu"
+    ],
+    "genres": "Drama",
     "lgbtq": true,
     "img_creds": "The Bulletin Time",
     "img_link": "https://i0.wp.com/www.thebulletintime.com/wp-content/uploads/2022/01/Utopia-Falls-Season-2-1-2.jpg?resize=650%2C325&ssl=1",
     "description": "is interesting. It is a drama show set way in the future after a point where society as a whole gets destructed after a lot of wars about race and other stupid things and then I think some natural disaster. The survivors lived underground, and someone named Gaia helped them create the place into a city, one they called New Babyl. In New Babyl there are 4 different sectors that people live in that all specialize in different things: Progress, Industry, Nature and Reform. The most anticipated event for all citizens in New Babyl is called The Exemplar, which is an annual singing and dance competition for 16yr olds. Every year a hundred 16yr olds are invited to compete and then citizens vote for the winner. New Babyl prides themselves as being a utopian society, when really, there is a lot of inequality amongst New Babyl, the worst, falling on Reform sector. Anyway, a couple Exemplar students find a small room in a prohibited area where someone had collected a lot of things from the past in like books, music, technology and an AI machine that calls the room ‘the Archive’. They kept it a secret because things from the past are banned from New Babyl— the Authority considers them dangerous. They don’t want the same mistakes humanity made last time to happen again, so they try their best to keep the past in the past, but the young contestants are very intrigued in what they find in the Archive. They learn ‘old’ dance styles like hip-hop and flamenco and listen to rap, and then start using what they have found in the Archive to influence their Exemplar performances. These “new” styles are unapproved by the authority and so, as you can guess, sh*t gets messy for them.",
-    "toggle_my_thoughts": false,
-    "my_thoughts": ["This show started slow, but after about 4 episodes I was feeling more drawn to it. It’s 3 things I love: sci-fi, music and dance, all in one. I think the writing for the show isn’t that great though. There were just a lot of dry and cliché moments for the most part, kinda like this blog... My favorite character is Brooklyn because she’s bold.  A character I didn’t like is Sage; she was annoying asf. Apollo was also cool, and I like Bodhi, but he just always seems so moody all the time. Anyway, this show kinda reminds me of the Hunger Games but not stupid 🙃."],
+    "my_thoughts": [
+      "This show started slow, but after about 4 episodes I was feeling more drawn to it. It’s 3 things I love: sci-fi, music and dance, all in one. I think the writing for the show isn’t that great though. There were just a lot of dry and cliché moments for the most part, kinda like this blog... My favorite character is Brooklyn because she’s bold.  A character I didn’t like is Sage; she was annoying asf. Apollo was also cool, and I like Bodhi, but he just always seems so moody all the time. Anyway, this show kinda reminds me of the Hunger Games but not stupid 🙃."
+    ],
     "rating_img": "./assets/ratings/4-stars.png",
-    "toggle_thoughts_with_spoilers": false,
-    "thoughts_with_spoilers": ["I really felt like Brooklyn should have stood up for herself more in the Sage-and-Brooklyn fight though, because her wrongdoing was really not much of a wrongdoing and Sage was the selfish one in that situation imo. I mean they don’t have phones and this was a huge opportunity that Brooklyn didn’t want to miss, so it shouldn’t have been such a big deal that she skips out one of her and Sage’s dates if she just explains the reasoning later (that she went on an afternoon trip to discover a whole new city!). Then again, I think there was completely no reason that they couldn’t have given Brooklyn two minutes to simply write a note to Sage before they left. That’s what would likely happen in real life, so it was kind of an unnecessary storyline made only to cause drama. But that brings me back to the ‘not great writing’ opinion I have for the show. I think the writers/directors just weren’t super experienced it seems."],
-    "toggle_tv_sins": false,
+    "thoughts_with_spoilers": [
+      "I really felt like Brooklyn should have stood up for herself more in the Sage-and-Brooklyn fight though, because her wrongdoing was really not much of a wrongdoing and Sage was the selfish one in that situation imo. I mean they don’t have phones and this was a huge opportunity that Brooklyn didn’t want to miss, so it shouldn’t have been such a big deal that she skips out one of her and Sage’s dates if she just explains the reasoning later (that she went on an afternoon trip to discover a whole new city!). Then again, I think there was completely no reason that they couldn’t have given Brooklyn two minutes to simply write a note to Sage before they left. That’s what would likely happen in real life, so it was kind of an unnecessary storyline made only to cause drama. But that brings me back to the ‘not great writing’ opinion I have for the show. I think the writers/directors just weren’t super experienced it seems."
+    ],
     "tv_sins": [
       "They make a big deal about how the New Babyl citizens have to dress similar, sing the same songs, dance only in certain styles, and can’t uniquely express themselves, all to promote equality and not make the mistakes the past did, but then we see the Exemplar host/announcer dress in whatever she wants (a fancy dress) with stylistic, modern hairstyles and I’m like… what?? There doesn’t seem to have been much consistency there.",
       "How come it first appears that New Babyl citizens can only wear their sectors jumpsuit, but then later, even aside from the rebellious attitude storyline, many of the citizens, particularly the Exemplar candidates, are just wearing whatever they want. Why was that just passed as socially acceptable?",
@@ -398,27 +503,32 @@
     "sort": "W",
     "title": "Wild 'N Out",
     "seasons": "20 seasons (2005-present)",
-    "availability": ["mtv", "paramount-plus"],
-    "genres": "Comedy, Reality game show", 
+    "availability": [
+      "mtv",
+      "paramount-plus"
+    ],
+    "genres": "Comedy, Reality game show",
     "lgbtq": true,
     "img_creds": "Golden 1 Center",
     "img_link": "https://www.golden1center.com/assets/img/HomepageLG_1340x600-1f80247d79.jpg",
     "description": "is pretty funny. I didn't really start getting into it until the 2020 Pandemic because it kept me entertained and then I was crazy about it. It's a live improv comedy show where the host and boss, Nick Cannon, and his cast roast each other, freestyle rap, and try to make each other and the audience laugh. Every episode there are 2 teams. Typically, it's the Red Squad vs the Black Squad (and Nick is always on red), but somedays they do Old School vs New School or Black vs Platinum. The two teams play a series of games each episode and get points based on their jokes. Then the team with the most points by the end wins the game for the episode. For some reason, the Black Squad almost always be winning even though they switch up the teams every episode I believe. The show is not only very hilarious but also LGBTQ inclusive, as there are 3 LGBTQ cast members on it.",
-    "toggle_my_thoughts": false,
-    "my_thoughts": ["I can typically count on this show to make me smile. The cast is hilarious and Nick is really good at keeping everyone grounded on the show despite all the disses they all say at each other. I really gained more respect for Nick after watching. My favorites on the show are Santwon, Zoie, Justina, Michael Blackson, and ofc, DC Young Fly. DC was made for this show, he's like a living cartoon character. I really really hope they can get Kida the Great on the show someday."],
+    "my_thoughts": [
+      "I can typically count on this show to make me smile. The cast is hilarious and Nick is really good at keeping everyone grounded on the show despite all the disses they all say at each other. I really gained more respect for Nick after watching. My favorites on the show are Santwon, Zoie, Justina, Michael Blackson, and ofc, DC Young Fly. DC was made for this show, he's like a living cartoon character. I really really hope they can get Kida the Great on the show someday."
+    ],
     "rating_img": "./assets/ratings/4-stars.png"
   },
   {
     "id": "world-of-dance",
     "title": "World of Dance",
     "seasons": "4 seasons (2017-2020)",
-    "availability": ["nbc"],
-    "genres": "Reality dance competition", 
+    "availability": [
+      "nbc"
+    ],
+    "genres": "Reality dance competition",
     "lgbtq": false,
     "img_creds": "Newsweek",
     "img_link": "https://www.newsweek.com/world-dance-canceled-nbc-season-5-1576492#slideshow/1756811",
     "description": "was the world’s biggest dance competition. The show divides the competition between juniors, junior groups (added since season 2), adults and adult groups. Then the 4 category winners compete in the World Finals for the final prize. Seasons 1-3 had 5 rounds: the Qualifiers, Duels, The Cut, Divisional Finals, and then the World Finals. The judges graded the dancers on five different categories: Performance, technique, choreography, creativity and presentation. Contestants only got past the Qualifiers if they got a score of 85 or above (80+ during season 3). Season 4 changed things up a bit so that dancers were only allowed to perform on the mainstage if they made it to the Semi-finals. The Cuts and Divisional Finals were mixed into one round. The first two rounds were hosted in some warehouse. After the Duels round, there were no dividing categories between the contestants. It was juniors and adults mixed competing each other.",
-    "toggle_my_thoughts": false,
     "my_thoughts": [
       "Even if the show wasn’t canceled, I think I would be done with the show after season 4 tbh. I liked watching because it’s dance, but alike with AGT, I had my fair share of problems with this show. But then again, I probably wouldn’t have been able to stop watching just because I like dance so much…. The show just consistently made me mad. Here’s why:",
       "Firstly, the camera angles and editing again. NBC f*cks that up every time. They know the viewers hate it, but they don’t listen.",
