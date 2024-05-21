@@ -12,8 +12,8 @@
 </style>
 
 <script>
-import ReviewsNav from "@/components/ReviewsNav.vue"
-import BlogMain from "@/components/BlogMain.vue"
+import ReviewsNav from "@/components/blog/ReviewsNav.vue"
+import BlogMain from "@/components/blog/BlogMain.vue"
 import blogData from "@/json/blog.json"
 export default {
   data() {

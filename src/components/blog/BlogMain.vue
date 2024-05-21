@@ -1,7 +1,7 @@
 <template>
   <main class="blog-content-wrapper text-center">
-    <div class="side">
-      <div class="aside-container">
+    <div class="table-of-contents">
+      <div class="toc-container">
         <h3>Table of contents</h3>
         <a class="nav-link" @click="scrollToElement(blogPost.id)" v-for="blogPost in blog" :key="blogPost.id">&bull;
           {{ blogPost.title }}
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import BlogPost from "@/components/BlogPost.vue"
+import BlogPost from "@/components/blog/BlogPost.vue"
 
 export default {
   props: {
@@ -26,6 +26,10 @@ export default {
     BlogPost
   },
   methods: {
+    /**
+     * Scrolls to the blog clicked on in the table of contents.
+     * @param {String} id - The id of the blog.
+     */
     scrollToElement(id) {
       const element = document.getElementById(id);
       if (element) {

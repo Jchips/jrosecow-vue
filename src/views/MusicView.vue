@@ -13,81 +13,16 @@
     <div class="container">
       <div class="table-responsive">
 
-        <!-- My New Music Table -->
+        <!-- new music table -->
         <TableView :music="music" :delete-song="deleteSong" :edit-song="editSong" :handleCheckbox="handleCheckbox"
           :tableHeaderLabels="tableHeaderLabels" />
       </div>
 
       <!-- Adding a song modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Add Song</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form id="music-form" @submit="handleSubmit">
-                <div class="mb-3">
-                  <label for="track-name" class="form-label">Song name</label>
-                  <input type="text" class="form-control" id="track-name" name="songTitle" placeholder="Enter song name"
-                    required />
-                </div>
-                <div class="mb-3">
-                  <label for="artist-name" class="form-label">Artist name</label>
-                  <input type="text" class="form-control" id="artist-name" name="artist"
-                    placeholder="Enter artist name" />
-                </div>
-                <div class="mb-3">
-                  <label for="song-link" class="form-label">Song link</label>
-                  <input type="text" class="form-control" id="song-link" name="songLink"
-                    placeholder="Enter link to song" />
-                </div>
-                <div class="mb-3">
-                  <label for="playlists" class="form-label">Playlists</label>
-                  <input type="text" class="form-control" id="playlists" name="playlists"
-                    placeholder="Enter playlists to add song to" />
-                </div>
-                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+      <AddMusic :handleAddSubmit="handleAddSubmit" />
 
       <!-- Editing song modal -->
-      <div class="modal fade" id="editSongModal" tabindex="-1" aria-labelledby="editSongModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="editSongModalLabel">Edit Song</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form id="edit-song-form" @submit="(e) => handleEditSubmit(e, songToEdit)">
-                <div class="mb-3">
-                  <label for="track-name" class="form-label">Song name</label>
-                  <input type="text" class="form-control" id="track-name" name="songTitle" :value="songToEdit.songTitle"
-                    required />
-                </div>
-                <div class="mb-3">
-                  <label for="artist-name" class="form-label">Artist name</label>
-                  <input type="text" class="form-control" id="artist-name" name="artist" :value="songToEdit.artist" />
-                </div>
-                <div class="mb-3">
-                  <label for="song-link" class="form-label">Song link</label>
-                  <input type="text" class="form-control" id="song-link" name="songLink" :value="songToEdit.songLink" />
-                </div>
-                <div class="mb-3">
-                  <label for="playlists" class="form-label">Playlists</label>
-                  <input type="text" class="form-control" id="playlists" name="playlists" :value="songToEdit.playlists" />
-                </div>
-                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+      <EditMusic :handleEditSubmit="handleEditSubmit" :songToEdit="songToEdit" />
     </div>
   </div>
 </template>
@@ -98,14 +33,16 @@
 
 <script>
 import axios from "axios";
-// import SongRow from "@/components/SongRow.vue";
 import TableView from "@/components/TableView.vue";
+import AddMusic from "../components/modals/AddMusic.vue";
+import EditMusic from "../components/modals/EditMusic.vue";
 
 export default {
   name: "MusicView",
   components: {
-    // SongRow,
     TableView,
+    AddMusic,
+    EditMusic,
   },
   data() {
     return {
@@ -119,11 +56,11 @@ export default {
         "edit",
         "discard",
       ],
-      showModal: false,
-      // newSong: {}, // might be unnecessary
       songToEdit: {},
-      // editedSong: {}, // might be unnecessary
     };
+  },
+  mounted() {
+    this.getMusic(); // Gets all music from inside the database.
   },
   methods: {
     // Gets the music from the MongoDB database using an Axios request.
@@ -134,7 +71,6 @@ export default {
         .get(url)
         .then((response) => (this.music = response.data))
         .catch((error) => console.error(error));
-      console.log(this.music); // delete later
     },
 
     /**
@@ -147,8 +83,6 @@ export default {
       await axios
         .delete(`${process.env.VUE_APP_SERVER}/music/${song._id}`)
         .then(() => {
-          console.log("delete successful");
-          // location.reload();
           const index = this.music.indexOf(song);
           if (index !== -1) {
             this.music.splice(index, 1);
@@ -172,7 +106,7 @@ export default {
      * MongoDB using an Axios POST request.
      * @param {Event} e - The submit event from submitting an added song
      */
-    handleSubmit(e) {
+    handleAddSubmit(e) {
       e.preventDefault(); // prevents instant refresh
       let form = e.target;
       let formData = new FormData(form);
@@ -183,8 +117,6 @@ export default {
       axios
         .post(`${process.env.VUE_APP_SERVER}/music`, formJson)
         .then((response) => {
-          // this.newSong = response.data; // not sure that I need
-          // location.reload();
           this.music.push(response.data);
         })
         .catch((error) => console.error(error));
@@ -202,12 +134,9 @@ export default {
       let formData = new FormData(form);
       const formJson = Object.fromEntries(formData.entries());
       formJson.isChecked = false;
-      console.log(formJson); // delete later
       axios
         .patch(`${process.env.VUE_APP_SERVER}/music/${song._id}`, formJson)
         .then((response) => {
-          // this.editedSong = response.data; // not sure that I need
-          // location.reload();
           const index = this.music.indexOf(song);
           this.music[index] = response.data;
         })
@@ -231,9 +160,6 @@ export default {
         })
         .catch((error) => console.error(error));
     },
-  },
-  mounted() {
-    this.getMusic(); // Gets all music from inside the database.
   },
 };
 </script>

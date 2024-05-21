@@ -1,10 +1,6 @@
 <template>
   <div class="tv">
-    <!-- <header>
-      <h1>My TV Shows</h1>
-    </header> -->
     <div class="container">
-      <!-- <aside class="col-sm-2"> -->
       <aside>
         <div><a href="#A" class="text-secondary">A</a></div>
         <div><a href="#B" class="text-secondary">B</a></div>
@@ -20,10 +16,8 @@
         <div><a href="#U" class="text-secondary">U</a></div>
         <div><a href="#W" class="text-secondary">W</a></div>
       </aside>
-      <!-- <main class="col-sm-10"> -->
       <main>
         <article v-for="show in shows" :key="show">
-          <!-- <hr class="hr"/> -->
           <TVShow :show="show" />
           <hr class="hr" />
         </article>
@@ -37,8 +31,9 @@
 </style>
 
 <script>
-import TVShow from "@/components/TVShow.vue";
+import TVShow from "@/components/blog/TVShow.vue";
 import shows from "@/json/tv.json";
+
 export default {
   components: {
     TVShow
