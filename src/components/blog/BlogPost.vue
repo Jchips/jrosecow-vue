@@ -42,6 +42,11 @@ export default {
     blogPost: Object
   },
   methods: {
+    /**
+     * Formats the date/time the blog was written into nice readable text.
+     * @param {Date} date - A date in the format of yyyy-mm-dd.
+     * @returns {String} - A formatted date.
+     */
     formatDate(date) {
       let timeElapsed = new Date(date);
       let formattedDate = timeElapsed.toLocaleDateString("en-us", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });

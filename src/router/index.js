@@ -22,7 +22,7 @@ const routes = [
   {
     path: '/protected/blog',
     name: 'blog',
-    component: () => import(/* webpackChunkName: "blog" */'../views/protected/BlogView.vue'),
+    component: () => import(/* webpackChunkName: "blog" */'../views/blog/BlogView.vue'),
     meta: {
       title: 'Blog',
       requiresAuth: true,
@@ -31,7 +31,7 @@ const routes = [
   {
     path: '/vs',
     name: 'vs',
-    component: () => import('../views/VSView.vue'),
+    component: () => import('../views/blog/VSView.vue'),
     meta: {
       title: 'VS'
     }
@@ -47,7 +47,7 @@ const routes = [
   {
     path: '/music',
     name: 'music',
-    component: () => import(/* webpackChunkName: "blog" */ '../views/protected/MusicView.vue'),
+    component: () => import(/* webpackChunkName: "blog" */ '../views/MusicView.vue'),
     meta: {
       title: 'Music',
       requiresAuth: true
@@ -56,7 +56,7 @@ const routes = [
   {
     path: '/dance-blog',
     name: 'dance blog',
-    component: () => import(/* webpackChunkName: "blog" */ '../views/protected/DanceBlog.vue'),
+    component: () => import(/* webpackChunkName: "blog" */ '../views/blog/DanceBlog.vue'),
     meta: {
       title: 'Dance Blog',
       requiresAuth: true
@@ -65,7 +65,7 @@ const routes = [
   {
     path: '/film-blog',
     name: 'film blog',
-    component: () => import(/* webpackChunkName: "blog" */'../views/protected/FilmBlog.vue'),
+    component: () => import(/* webpackChunkName: "blog" */'../views/blog/FilmBlog.vue'),
     meta: {
       title: 'Film Blog',
       requiresAuth: true
@@ -74,7 +74,7 @@ const routes = [
   {
     path: '/tech-reviews',
     name: 'tech reviews',
-    component: () => import('../views/TechReviews.vue'),
+    component: () => import('../views/blog/TechReviews.vue'),
     meta: {
       title: 'Tech Reviews'
     }
@@ -90,7 +90,7 @@ const routes = [
   {
     path: '/tv-shows',
     name: 'tv shows',
-    component: () => import('../views/protected/TV.vue'),
+    component: () => import('../views/blog/TV.vue'),
     meta: {
       title: 'TV Shows',
       requiresAuth: true
@@ -114,16 +114,17 @@ router.beforeEach(async (to, from, next) => {
   if (to.matched.some((route) => route.meta.requiresAuth)) {
     // Route requires authentication
     if (await isAuthenticated) {
-      // User is authenticated, allow navigation
 
-      // Check if the originally clicked route is stored
+      /**
+       * Check if the originally clicked route is stored
+       * If so, replace the current route with the originally clicked route
+       * Then reset the originally clicked route variable
+       * Else, if not stored, store the originally clicked route
+       */
       if (originalRoute) {
-        // Replace the current route with the originally clicked route
         router.replace(originalRoute);
-        // Reset the originally clicked route variable
         originalRoute = null;
       } else {
-        // Store the originally clicked route
         originalRoute = from;
       }
       next();
@@ -138,13 +139,9 @@ router.beforeEach(async (to, from, next) => {
 });
 
 function checkAuthentication() {
-  let token = localStorage.getItem('token'); // Retrieve the token from local storage
-
+  let token = localStorage.getItem('token');
   if (token) {
-    // Includes the token in the Authorization header for authentication
     axios.defaults.headers.common['authorization'] = `Bearer ${token}`;
-
-    // Make a request to a protected route to check if the token is valid
     return axios.get(`${process.env.VUE_APP_SERVER}/protected`)
       .then((response) => {
         console.log('router response', response.data.message);
@@ -157,7 +154,6 @@ function checkAuthentication() {
         return false;
       });
   } else {
-    // No token found, the user is not authenticated
     console.log('authentication:', 'no token found');
     return false;
   }

@@ -50,8 +50,8 @@
                 <span class="nav_name">Dance Wiki</span>
               </a>
 
-              <!-- Jphones.com -->
-              <a href="https://jphones.netlify.app/" class="nav_link" title="J. Phones">
+              <!-- JPhones-->
+              <a href="https://jphones.netlify.app/" class="nav_link" title="jPhones">
                 <i class="bx bx-mobile-alt nav_icon"></i>
                 <span class="nav_name">jPhones</span>
               </a>

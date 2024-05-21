@@ -2,7 +2,8 @@
   <table class="table table-striped table-hover">
     <thead>
       <tr>
-        <th class="table-title" colspan="100%">Download Music <div class="count">{{ this.music.length }}</div></th>
+        <th class="table-title" colspan="100%">Download Music <div class="count">{{ this.music.length }}</div>
+        </th>
       </tr>
     </thead>
     <thead>
@@ -15,7 +16,7 @@
         :handleCheckbox="handleCheckbox"></song-row>
       <tr>
         <td id="btn-row" colspan="100%" class="text-center">
-          <button id="add-music-btn" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button id="add-music-btn" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#addMusicModal">
             Add a song
           </button>
         </td>
@@ -26,6 +27,7 @@
 
 <script>
 import SongRow from "@/components/SongRow.vue";
+
 export default {
   name: "TableView",
   components: {
@@ -38,10 +40,5 @@ export default {
     editSong: Function,
     handleCheckbox: Function
   },
-  data () {
-    return {
-
-    }
-  }
 }
 </script>
