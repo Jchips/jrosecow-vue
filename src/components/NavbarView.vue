@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav ref="navbar" id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img class="rounded-circle" src="@/assets/pin.png" alt="J. Rose pin">
@@ -11,11 +11,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <!-- <a class="nav-link active" aria-current="page" href="#"> -->
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <!-- <a class="nav-link" href="#"><router-link to="/about">About</router-link></a> -->
             <router-link class="nav-link" to="/about">About</router-link>
           </li>
           <li class="nav-item dropdown">
@@ -24,9 +22,8 @@
               Blog
             </a>
             <ul class="dropdown-menu">
-              <!-- <li><a class="dropdown-item" href="#"><router-link to="/gen-z-dance-wiki">Gen Z Dance Wiki</router-link></a></li> -->
               <li><router-link to="/protected/blog" class="dropdown-item">Blog</router-link></li>
-              <li><router-link to="/movie-reviews" class="dropdown-item">Reviews</router-link></li>
+              <li><router-link to="/tech-reviews" class="dropdown-item">Reviews</router-link></li>
               <li><router-link to="/vs" class="dropdown-item">VS</router-link></li>
             </ul>
           </li>
@@ -43,3 +40,33 @@
   </nav>
   <router-view />
 </template>
+
+<style lang="scss">
+@import "@/sass/navbar.scss";
+</style>
+
+<script>
+export default {
+  data() {
+    return {
+      isMounted: false,
+    }
+  },
+  mounted() {
+    window.addEventListener("scroll", this.minimizeNav);
+    this.isMounted = true;
+  },
+  methods: {
+    minimizeNav() {
+      if (this.isMounted && window.scrollY > 85) {
+        document.getElementById("navbar").style.padding = "10px";
+      } else {
+        document.getElementById("navbar").style.padding = "20px";
+      }
+    }
+  },
+  beforeUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+}
+</script>

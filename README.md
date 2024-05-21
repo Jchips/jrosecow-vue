@@ -7,7 +7,7 @@ The whole website is a CRUD app that utilizes MongoDB.
 
 ### Author: J. Rose
 
-### Version: 2.1.2
+### Version: 2.1.3
 
 ### Links and Resources
 
@@ -26,6 +26,7 @@ The whole website is a CRUD app that utilizes MongoDB.
 
 ### Changelog
 
+- 05-20-24 (2.1.3): Fixed bugs, updated content, improved ui a bit, improved code.
 - 01-26-24 (2.1.2): Minor improvements on web on mobile, added content, deleted unnecesary code.
 - 09-07-23 (2.1.1): Added shows.
 - 09-01-23 (2.1.0): Added TV show reviews page.

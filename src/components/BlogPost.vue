@@ -44,7 +44,7 @@ export default {
   methods: {
     formatDate(date) {
       let timeElapsed = new Date(date);
-      let formattedDate = timeElapsed.toLocaleDateString('en-us', { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+      let formattedDate = timeElapsed.toLocaleDateString("en-us", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
       return formattedDate;
     }
   }

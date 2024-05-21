@@ -2,17 +2,17 @@
   "favs": {
     "animal": "Tipsy the cow 🐮",
     "colors": "Black and purple",
-    "dancer": "Rn, maybe Willis Modestine",
+    "drummer": "Aaron Spears",
     "drink": "Root beer",
     "game": "Apples to Apples",
-    "instrument": "Drums, piano and violin. (Love them all, although I have never played the violin).",
+    "instrument": "Drums, piano, and violin. (I have never played the violin though).",
     "music artists": "Khalid, 6LACK, H.E.R., Burna Boy & Giveon",
-    "musical": "The Lion King",
     "dance duo": "Bailey & Kida",
     "os": "Android",
     "phone": "Samsung S Series",
     "song": "\"Rich Spirit\" by Kendrick Lamar",
     "sport": "Ultimate frisbee",
+    "weather": "Rainy days",
     "tV show": "The OA (so sad it was cancelled)"
   },
   "funFacts": [
@@ -26,12 +26,12 @@
     "My Hogwarts house is Hufflepuff 🟧⬛️ (but I'm not really a HP fan)",
     "I love dancing and watching dance, but I am not that good myself",
     "I have a stuffed cow that I've owned since I was 4 that I am 'utterly' obsessed with :p",
-    "I hate all bugs and insects. (I know 'hate' is a strong word....)",
+    "I don't like bugs or insects",
     "I only use pens to write with. I don't like pencils",
-    "I am a introvert and my personality type is a Mediator (INFP-T) [16personalities test]",
+    "I am a introvert and my personality type is a Mediator (INFP-T) - 16personalities test",
     "I have retrograde amnesia from something so I don't remember much anything from 2018-2022",
     "My sexual orientation is women",
-    "When listening to music, I always remember the rhythm, beat and little nuances in the songs, but hardly the lyrics",
+    "When listening to music, I always remember the rhythm, beat, and little nuances in the songs, but hardly the lyrics",
     "I love hoodies and wear a hoodie pretty much everywhere (even in the summer)",
     "My music taste is literally anything. I don't like all songs, but I like some of almost all types of music",
     "I know that we're not supposed to start sentences with \"but\" or \"and\" in English, but I think that's a stupid rule and I love starting sentences with both.",
@@ -39,31 +39,39 @@
   ],
   "explore_cards": [
     {
-      "img_path": "/assets/explore-imgs/jphones1.jpeg",
-      "img2_path": "/assets/explore-imgs/jphones2.jpeg",
+      "imgs": [
+        "/assets/explore-imgs/jphones1.jpeg",
+        "/assets/explore-imgs/jphones2.jpeg"
+      ],
       "lightbox_cat": "jphones",
-      "card_title": "J. Phones.com",
-      "card_text": "Project for phone shopping. I am a phone geek so I created a site for phone shoppers to find the best phone for them.",
-      "project_lang": "React, Javascript & Bootstrap 5",
+      "card_title": "jPhones",
+      "card_text": "This site aids active phone seekers in choosing the most suitable option by providing the best information in one place.",
+      "project_lang": "React, JavaScript & Bootstrap 5",
       "project_link": "https://jphones.netlify.app/"
     },
     {
-      "img_path": "/assets/explore-imgs/social-posts2.png",
-      "img2_path": "/assets/explore-imgs/social-posts1.png",
-      "img3_path": "/assets/explore-imgs/social-posts4.png",
+      "imgs": [
+        "/assets/explore-imgs/bee-social-dashboard-grid.png",
+        "/assets/explore-imgs/bee-social-dashboard-stack.png",
+        "/assets/explore-imgs/bee-social-user-profile.png",
+        "/assets/explore-imgs/bee-social-login.png",
+        "/assets/explore-imgs/bee-social-update-profile.png"
+      ],
       "lightbox_cat": "bee-social",
-      "card_title": "Bee Social App",
-      "card_text": "Want to share your thoughts with other people? This is the app to do it!",
-      "project_lang": "React, Firebase Auth, Javascript, MongoDB & Bootstrap 5",
-      "project_link": "https://social-posts-app.netlify.app/"
+      "card_title": "Bee Social",
+      "card_text": "Want to share your thoughts and images with other people? This is the site to do it!",
+      "project_lang": "React, Firebase, JavaScript, MongoDB & Bootstrap 5",
+      "project_link": "https://beesocialhub.netlify.app/"
     },
     {
-      "img_path": "/assets/explore-imgs/behavior-chain1.png",
-      "img2_path": "/assets/explore-imgs/behavior-chain2.png",
+      "imgs": [
+        "/assets/explore-imgs/behavior-chain1.png",
+        "/assets/explore-imgs/behavior-chain2.png"
+      ],
       "lightbox_cat": "behavior-chain",
       "card_title": "Create a Behavior Chain",
       "card_text": "This is for DBT and RODBT practice. Create a behavior chain to prevent your target behavior from happening again.",
-      "project_lang": "React, Javascript & Bootstrap 5",
+      "project_lang": "React, JavaScript & Bootstrap 5",
       "project_link": "https://behavior-chain.netlify.app/"
     }
   ]
