@@ -29,14 +29,6 @@ const routes = [
     }
   },
   {
-    path: '/movie-reviews',
-    name: 'movie reviews',
-    component: () => import('../views/protected/MovieReviews.vue'),
-    meta: {
-      title: 'Movie Reviews'
-    }
-  },
-  {
     path: '/vs',
     name: 'vs',
     component: () => import('../views/VSView.vue'),
@@ -170,6 +162,5 @@ function checkAuthentication() {
     return false;
   }
 }
-
 
 export default router

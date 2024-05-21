@@ -5,44 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-.navbar {
-  padding: 20px !important;
-  padding-left: 30px !important;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  // font-family: "Lato", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-.navbar img {
-  height: 30px;
-  width: 30px;
-  box-shadow: 1px 1px 4px #141414; 
-  margin-bottom: 4px;
-}
-
-.nav-item {
-  padding-left: 10px;
-}
-
-// Active nav link
-a.router-link-exact-active {
-  color: #fff;
-}
-// .nav-item a.router-link-exact-active {
-//   color: #fff;
-// }
-
-// Active nav link in dropdown
-.dropdown-menu a.router-link-active {
-  background-color: #343a40;
-  color: #fff;
-  text-decoration: none;
-}
-
-// Non-active nav link in dropdown
-.dropdown-menu a.router-link-exact {
-  color: #212529;
-}
-
 footer {
   background-color: #33475b;
   color: #fff;
@@ -50,7 +12,10 @@ footer {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
   border-top: 5px solid black;
-  clear: both;
+  height: 315px; // used to not be here
+  // position: relative;
+
+  // clear: both;
   @include media-query(mobile) {
     text-align: center;
   }
@@ -121,15 +86,6 @@ footer .text-uppercase {
   width: 10px;
   height: 15px;
 }
-
-/* Cool linear gradient for the page slider
-::-webkit-scrollbar-track:vertical {
-  background: linear-gradient(to top, white, black);
-}
-
-::-webkit-scrollbar-track:horizontal {
-  background: linear-gradient(to left, white, black);
-} */
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;

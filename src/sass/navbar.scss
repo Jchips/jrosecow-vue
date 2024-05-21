@@ -1,0 +1,42 @@
+#navbar {
+  padding: 20px;
+  padding-left: 30px !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  transition: 0.3s;
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+}
+
+// .transition {
+//   transition: 0.3s;
+// }
+
+.navbar img {
+  height: 30px;
+  width: 30px;
+  box-shadow: 1px 1px 4px #141414;
+  margin-bottom: 4px;
+}
+
+.nav-item {
+  padding-left: 10px;
+}
+
+// Active nav link
+a.router-link-exact-active {
+  color: #fff;
+}
+
+// Active nav link in dropdown
+.dropdown-menu a.router-link-active {
+  background-color: #343a40;
+  color: #fff;
+  text-decoration: none;
+}
+
+// Non-active nav link in dropdown
+.dropdown-menu a.router-link-exact {
+  color: #212529;
+}

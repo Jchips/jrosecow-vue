@@ -7,7 +7,11 @@
           <h5 class="text-uppercase">J. Rose Contact</h5>
           <p>Here you can find multiple ways to contact me.</p>
           <p class="sources">I'm not being paid for this site.</p>
-          <p class="sources"><a target="_blank" href="https://icons8.com/icon/5077/dance">Dance</a> and <a target="_blank" href="https://icons8.com/icon/3875/therapy">therapy</a> icons on certain pages by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+          <p class="sources">
+            <a target="_blank" href="https://icons8.com/icon/9772/dancing">Dance</a> and
+            <a target="_blank" href="https://icons8.com/icon/w0vclwHRccbk/chain">chain</a> icons by
+            <a target="_blank" href="https://icons8.com">Icons8</a>
+          </p>
           <img class="footer-img" src="@/assets/ar-emoji-pin2.jpg" alt="J. Rose pin" />
         </div>
         <hr class="clearfix w-100 d-md-none pb-3">

@@ -11,28 +11,25 @@
     <main>
       <h2>About J. Rose</h2>
       <p>
-        Just a short black girl who likes music, coding and dance.
+        Just a short autistic black girl who likes music, coding, tech, and dance.
       </p>
       <p class="bio">
         Hi! I currently live in the Pacific Northwest area, US, although I was born in Texas.
         I am 22yrs old and am working towards getting a certificate in software development with Code Fellows.
-        Before Code Fellows, I was at the University of Washington, then Washington State University, then the University
-        of Texas. My goal is to become a software developer in mobile and full-stack web development, and so far I have
-        coding experience in Java, HTML/CSS, JavaScript, Kotlin, PHP, SQL, and R. My technical skills are React, Node.js,
-        Vue.js, Postgres, and MongoDB. I also love dance and watching TV shows, and I'm a huge phone geek... and I have a
+        Before Code Fellows, I went to college at the University of Washington, Washington State University, and the
+        University of Texas. I am a software developer in mobile and full-stack web development, and so far I have
+        coding experience in JavaScript, HTML/CSS, SCSS, Java, Kotlin, PHP, SQL, and R. My technical skills are React,
+        Node.js, React Native, Vue.js, AWS, Postgres, and MongoDB. I aim to develop modern and well-functioning software
+        solutions that prioritize a seamless user experience. I love to learn and I am always growing.
+        I also love dance and watching TV shows, and I'm a huge phone geek... and I have a
         stuffed cow named Tipsy.
-
       </p>
       <p class="my-links">
-        <a href="https://ask.fm/javacow" target="_blank">
-          <img src="https://logodix.com/logo/15192.jpg" alt="AskFm icon" />
-        </a>
         <a href="https://open.spotify.com/playlist/5TIT8wEOGDG8zRED4bTTyq?si=kIU27pjjRhGXdqiaNczofw" target="_blank">
-          <img src="https://www.freeiconspng.com/uploads/spotify-icon-2.png" alt="Spotify icon" />
+          <img src="@/assets/icons/spotify-icon.png" alt="Spotify icon" />
         </a>
       </p>
-      <div class="btn-container"><button class="btn btn-primary" @click="showMore = !showMore">{{ showMore ? 'SHOW LESS -'
-        : 'SHOW MORE +' }}</button></div>
+      <div class="btn-container"><button class="btn btn-primary" @click="showMore = !showMore">{{ showMore ? "SHOW LESS -" : "SHOW MORE +" }}</button></div>
       <section v-show="showMore">
         <h6>To get to know me, here are some of my favs and fun facts about me. See what you can relate too :)</h6>
         <div class="favs-facts-container">
@@ -61,21 +58,18 @@
 </template>
 
 <style scoped lang="scss">
-@import '@/sass/about.scss';
+@import "@/sass/about.scss";
 </style>
 
 <script>
-import favsJson from '@/json/myData.json';
+import favsJson from "@/json/myData.json";
 export default {
-  name: 'AboutView',
+  name: "AboutView",
   data() {
     return {
       favs: favsJson,
       showMore: false
     }
   },
-  methods: {
-
-  }
 }
 </script>

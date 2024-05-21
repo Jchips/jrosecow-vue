@@ -1,11 +1,11 @@
-<!-- Sidebar from: https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202# -->
+<!-- Sidebar inspiration from: https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202# -->
 <!-- This page uses Lightbox2. https://lokeshdhakar.com/projects/lightbox2/ -->
 <!-- Background image from Annie Spratt on Unsplash https://unsplash.com/photos/wuc-KEIBrdE -->
 <template>
   <div id="body-pd" class="explore">
     <div class="header" id="header">
-      <div class="header_toggle">
-        <i class="bx bx-menu" id="header-toggle"></i>
+      <div class="header_toggle" @click="showNavbar = !showNavbar">
+        <i :class="[this.showNavbar ? 'bx-x' : null, 'bx', 'bx-menu']" id="header-toggle"></i>
       </div>
       <header>
         <h1>My Explore Page</h1>
@@ -24,9 +24,6 @@
             </a>
             <div class="nav_list">
 
-              <!-- Future update: If <a> is :active, then give it a lighter color.
-                Have to find out how to test if it's active in javascript, html or Vue -->
-
               <!-- Main page -->
               <a href="#" class="nav_link active" title="dashboard">
                 <i class="bx bx-grid-alt nav_icon"></i>
@@ -41,21 +38,22 @@
 
               <!-- Create a behavior chain -->
               <a href="https://behavior-chain.netlify.app/" class="nav_link" title="behavior-chain">
-                <img width="24" height="24" src="https://img.icons8.com/ios/50/AFA5D9/therapy.png" alt="therapy" />
+                <img width="24" height="24"
+                  src="https://img.icons8.com/?size=50&id=w0vclwHRccbk&format=png&color=AFA5D9" alt="therapy" />
                 <span class="nav_name">Behavior Chain</span>
               </a>
 
               <!-- Dance wiki -->
-              <a href="https://dance-wiki.netlify.app/" class="nav_link" title="dance wiki">
-                <img class="nav_icon" width="24" height="24" src="https://img.icons8.com/ios/50/AFA5D9/dancing.png"
-                  alt="dancing" />
+              <a href="https://genzdance.netlify.app/" class="nav_link" title="dance wiki">
+                <img class="nav_icon" width="24" height="24"
+                  src="https://img.icons8.com/?size=50&id=9772&format=png&color=AFA5D9" alt="dancing" />
                 <span class="nav_name">Dance Wiki</span>
               </a>
 
               <!-- Jphones.com -->
               <a href="https://jphones.netlify.app/" class="nav_link" title="J. Phones">
                 <i class="bx bx-mobile-alt nav_icon"></i>
-                <span class="nav_name">J. Phones</span>
+                <span class="nav_name">jPhones</span>
               </a>
 
               <!-- Music -->
@@ -68,13 +66,9 @@
               <router-link to="/tv-shows" class="nav_link" title="TV">
                 <i class="bx bx-tv nav_icon"></i>
                 <span class="nav_name">TV</span>
-              </router-link>             
+              </router-link>
             </div>
           </div>
-          <!-- <a href="#" class="nav_link">
-            <i class="bx bx-log-out nav_icon"></i>
-            <span class="nav_name">SignOut</span>
-          </a> -->
         </nav>
       </div>
 
@@ -105,15 +99,16 @@ import ExploreCards from "@/components/ExploreCards.vue";
 export default {
   data() {
     return {
-      exploreCards: myData.explore_cards
+      exploreCards: myData.explore_cards,
+      showNavbar: false,
     }
   },
   components: {
     ExploreCards
   },
   mounted() {
-    // Code from https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#
-    const showNavbar = (toggleId, navId, bodyId, headerId) => {
+    // Resource: https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202#
+    const toggleSidebar = (toggleId, navId, bodyId, headerId) => {
       const toggle = document.getElementById(toggleId),
         nav = document.getElementById(navId),
         bodypd = document.getElementById(bodyId),
@@ -124,8 +119,6 @@ export default {
         toggle.addEventListener("click", () => {
           // show navbar
           nav.classList.toggle("show");
-          // change icon
-          toggle.classList.toggle("bx-x");
           // add padding to body
           bodypd.classList.toggle("body-pd");
           // add padding to header
@@ -134,7 +127,7 @@ export default {
       }
     };
 
-    showNavbar("header-toggle", "nav-bar", "body-pd", "header");
+    toggleSidebar("header-toggle", "nav-bar", "body-pd", "header");
 
     /*===== LINK ACTIVE =====*/
     const linkColor = document.querySelectorAll(".nav_link");
@@ -146,14 +139,6 @@ export default {
       }
     }
     linkColor.forEach((l) => l.addEventListener("click", colorLink));
-
-    // Your code to run since DOM is loaded and ready
-    //  });
-
-    // lightbox.option({
-    //   'resizeDuration': 200,
-    //   'wrapAround': true
-    // });
   },
 };
 </script>
