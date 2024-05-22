@@ -43,13 +43,6 @@
                 <span class="nav_name">Behavior Chain</span>
               </a>
 
-              <!-- Dance wiki -->
-              <a href="https://genzdance.netlify.app/" class="nav_link" title="dance wiki">
-                <img class="nav_icon" width="24" height="24"
-                  src="https://img.icons8.com/?size=50&id=9772&format=png&color=AFA5D9" alt="dancing" />
-                <span class="nav_name">Dance Wiki</span>
-              </a>
-
               <!-- JPhones-->
               <a href="https://jphones.netlify.app/" class="nav_link" title="jPhones">
                 <i class="bx bx-mobile-alt nav_icon"></i>
