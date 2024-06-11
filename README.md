@@ -3,11 +3,12 @@
 ## Jrosecow site
 
 This is frontend to J. Rose's personal website made with Vue.js 3.
+
 Live site: <https://jrosecow.com/>
 
 ### Author: J. Rose
 
-### Version: 2.1.3
+### Version: 2.1.4
 
 ### Links and Resources
 
@@ -24,6 +25,7 @@ Live site: <https://jrosecow.com/>
 
 ### Changelog
 
+- 06-11-24 (2.1.4): Fixed mobile viewing bug.
 - 05-20-24 (2.1.3): Fixed bugs, updated content, improved ui a bit, improved code.
 - 01-26-24 (2.1.2): Minor improvements on web on mobile, added content, improved code.
 - 09-07-23 (2.1.1): Added shows.
