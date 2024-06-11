@@ -3,6 +3,7 @@
 ## Jrosecow site
 
 This is frontend to J. Rose's personal website made with Vue.js 3.
+
 Live site: <https://jrosecow.com/>
 
 ### Author: J. Rose
